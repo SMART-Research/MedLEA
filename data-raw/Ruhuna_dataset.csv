@@ -1,0 +1,472 @@
+ID,Sinhala Name,Family Name,Scientific Name,Shape,Arrangements,Bipinnately compound,Pinnately compound,Palmately compound,Edges,Uniform background,Red Margin,Shaded margin,White Shading,Red Shading,White line,Green leaf,Red leaf,Veins,Arrangement on the stem,Leaf Apices,Leaf Base
+1,Tel kaduru (???? ?????),EUPHORBIACEAE,Sapium insigne,2,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,11
+2,Telhiriya (?????????) / Mayura manikkam (???? ?????????),RHAMNACEAE,Colubrina asiatica var. asiatica,2,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,1
+3,Thakkali,SOLANACEAE,Lycopersicon esculentum,4,2,0,1,0,3,1,0,0,0,0,0,1,0,2,2,2,7
+4,Thala,PEDALIACEAE,Sesamum indicum,4,1,0,0,0,1,1,0,0,1,0,0,1,0,2,3,1,10
+5,Thana hal,POACEAE,Setaria italica,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,2,1,5
+6,Thebu (????) / Koltan (???????),ZINGIBERACEAE,Costus speciosus,2,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,11
+7,Thel kola (???? ???),CONVOLVULACEAE,Ipomoea littoralis,1,2,0,0,1,1,1,0,0,0,0,0,1,0,3,1,1,7
+8,Thembiliya (???????),MYRTACEAE,Eugenia bracteata,2,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,10
+9,Thippili (????????),PIPERACEAE,Piper longum,1,1,0,0,0,1,1,0,0,0,0,0,1,0,1,2,1,7
+10,Thiththa / Tolol,FLACOURTIACEAE,Trichadenia zeylanica,6,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,11
+11,Thiththa kinda,MENISPERMACEAE,Tinospora glabra,1,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,7
+12,Thiththa wel (????? ????),MENISPERMACEAE,Anamirta cocculus,1,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,7
+13,Tholabo (?????),AMARYLLIDACEAE,Crinum asiaticum,1,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,11
+14,Thumba karawila (??? ?????) / Mal thumba (??? ?????),CUCURBITACEAE,Momordica dioica,5,1,0,0,0,2,1,0,0,0,0,0,1,0,3,1,1,7
+15,Yak erabadu (??? ?????) / Katu kela (??? ???),FABACEAE,Erythrina fusca,2,2,0,0,1,1,1,0,0,0,0,0,1,0,2,1,3,2
+16,Yak kapu (??? ???),STERCULIACEAE,Abroma augusta,1,1,0,0,0,2,1,0,0,0,0,0,1,0,3,1,4,3
+17,Yak kon,MELIACEAE,Soymida febrifuga,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+18,Yakada wel (??? ????) / Manorangitham (??????????),ANNONACEAE,Artabotrys hexapetalus,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+19,Yakahalu (?????) / Dummala (??????),DIPTEROCARPACEAE,Shorea oblongifolia,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+20,Yakinaran (????????),RUTACEAE,Atalantia rotundifolia,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+21,Yak eraminiya,RHAMNACEAE,Ziziphus napeca,4,1,0,0,0,1,1,0,0,0,0,0,1,0,3,1,1,1
+22,Yak komadu (??? ?????) / Thiththa labu (????? ???),CUCURBITACEAE,Citrullus colocynthis,5,1,0,0,0,3,1,0,0,0,0,0,1,0,3,1,1,4
+23,Yaka bendi wel (??? ???? ????) / Wellangiriya (????????????),RUTACEAE,Paramignya monophylla,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+24,Yakada wel,RHAMNACEAE,Ventilago madraspatana var. madraspatana,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+25,Yakinaran (????????),RUTACEAE,Atalantia ceylanica,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+26,Yakwanassa (????????),LAMIACEAE,Anisomeles indica,1,1,0,0,0,2,1,0,0,0,0,0,1,0,3,1,4,2
+27,Vanila,ORCHIDACEAE,Vanilla fragrans,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,1
+28,Vatassa (??????),DROSERACEAE,Drosera burmannii,7,1,0,0,0,2,0,0,0,0,0,0,0,0,1,3,3,5
+29,Vel maruk / Maratu,POACEAE,Echinochloa crusgalli,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,2,1,2
+30,Visa (???) / Olupeliya (????????),EUPHORBIACEAE,Cleistanthus pallidus,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,2,1,1
+31,Vishaduliya / Kirikaju,MALVACEAE,Wissadula periplocifolia,1,1,0,0,0,1,1,0,0,0,0,0,1,0,3,1,1,3
+32,Vishakumba,EUPHORBIACEAE,Jatropha podagrica,5,1,0,0,0,3,1,0,0,0,0,0,1,0,3,3,2,6
+33,Vataressa / Kakkutu pala,BRASSICACEAE,Rorippa nasturtium-aquaticum,2,1,0,0,0,1,1,0,0,0,0,0,1,0,3,2,2,2
+34,Vel bute,ROSACEAE,Rubus indicus,1,1,0,0,0,2,1,0,0,0,0,0,1,0,3,1,2,7
+35,Velangu / Welan,STERCULIACEAE,Pterospermum suberifolium,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+36,Visaduli (???????) / Heen kimbu (???? ????) / Visa Chunniya (??? ???????),ASTERACEAE,Centipeda minima,4,1,0,0,0,2,1,0,0,0,0,0,1,0,1,1,1,8
+37,Vishaharana,DRACAENACEAE,Sansevieria cylindrica,7,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,2
+38,Ubberiya (????????),RHIZOPHORACEAE,Carallia calycina,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,2,1,1
+39,Udala (???) / Panu kodol (??? ??????),DIOSCOREACEAE,Dioscorea bulbifera,1,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,4,3
+40,Uguressa (????????) / Katu lovi (???????),FLACOURTIACEAE,Flacourtia indica,2,1,0,0,0,2,1,0,0,0,0,0,1,0,3,1,1,2
+41,Ula arisi,FABACEAE,Trigonella zenumgraceum,4,2,0,0,1,1,1,0,0,0,0,0,1,0,2,1,1,1
+42,Uluhal,FABACEAE,Trigonella foenum-graecum,4,2,0,0,1,2,1,0,0,0,0,0,1,0,2,1,2,5
+43,Ulveraniya (?????????) / Pita sudu pala (??? ???? ???),RUBIACEAE,Hedyotis neesiana,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+44,Urala (???),PRIMULACEAE,Cyclamen indicum,1,1,0,0,0,1,1,0,0,0,0,0,1,0,3,3,1,3
+45,Uru hiri (??? ????),CYPERACEAE,Bulbostylis barbata ssp. barbata,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,1
+46,Uru thora (??? ???),FABACEAE,Cassia sophera,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+47,Uva mendora,DIPTEROCARPACEAE,Hopea cordifolia,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+48,Udahalu (?????) / Pada wel (?? ????),PASSIFLORACEAE,Passiflora foetida,1,1,0,0,0,2,1,0,0,0,0,0,1,0,3,1,1,7
+49,Ugudu hal,SYMPLOCACEAE,Symplocos coronata var. coronata,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+50,Uk,POACEAE,Saccharum officinarum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,5
+51,Ulkenda (????????) / Miwenna (???????),ANNONACEAE,Polyalthia korinti,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+52,Ulundu / Urd,FABACEAE,Vigna mungo,1,2,0,0,1,1,1,0,0,0,0,0,1,0,3,1,1,9
+53,Ununu,ROSACEAE,Prunus ceylanica,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+54,Uru henda,PORTULACACEAE,Portulaca grandiflora,6,1,0,0,0,1,0,1,0,0,0,0,0,0,1,3,3,1
+55,Uru kanu(??? ???) / Uru honda (??? ???),ICACINACEAE,Stemonurus apicalis,4,1,0,0,0,1,1,0,0,0,0,0,0,0,1,1,1,1
+56,Us-paspalam thana (???-????????? ??),POACEAE,Paspalum urivillei,6,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+57,Uyala (???),DIOSCOREACEAE,Dioscorea tomentosa,4,2,0,0,1,1,1,0,0,0,0,0,1,0,3,1,1,1
+58,Wa (??) / Aramana (????),FABACEAE,Cassia siamea,2,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,3,2
+59,Wadiga / Eth kukuruman,RUBIACEAE,Tamilnadia uliginosa,4,2,0,0,1,1,1,0,0,0,0,0,1,0,2,2,1,10
+60,Wal ambarella (??? ???????),ANACARDIACEAE,Spondias pinnata,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,4,1
+61,Wal aralu (??? ????),MORACEAE,Ficus mollis,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+62,Wal averiya (??? ?????),FABACEAE,Indigofera trita,1,2,0,0,1,1,1,0,0,0,0,0,1,0,2,1,3,1
+63,Wal buta,ROSACEAE,Rubus fairholmianus,4,2,0,1,0,2,1,0,0,0,0,0,1,0,2,1,1,7
+64,Wal dumkola,LOBELIACEAE,Lobelia nicotianifolia,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+65,Wal ekaveriya (??? ????????),APOCYNACEAE,Rauvolfia densifolia,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,10
+66,Wal gona (??? ???),MORACEAE,Ficus callosa,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+67,Wal jambu,MYRTACEAE,Syzygium cordifolium ssp. Cordifolium,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,2
+68,Wal Jayapala (??? ?????) / Olupetta (???????) / Mawata (?????),EUPHORBIACEAE,Fahrenheitia zeylanica,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,1
+69,Wal kahambiliya,URTICACEAE,Laportea interrupta,1,1,0,0,0,2,1,0,0,0,0,0,1,0,3,1,4,1
+70,Wal karabu (??? ?????),MYRTACEAE,Syzygium fergusoni ssp. Fergusoni,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,11
+71,Wal kidaram (??? ???????),ARACEAE,Arisaema leschenaultii,4,2,0,0,1,2,0,0,1,0,0,0,1,0,2,3,4,8
+72,Wal Kollu (??? ??????),FABACEAE,Atylosia rugosa,4,2,0,0,1,1,1,0,0,0,0,0,1,0,3,1,1,2
+73,Wal kopi,RUBIACEAE,Scyphostachys coffaeoides,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+74,Wal koththamalli,RUBIACEAE,Oldenlandia herbacea,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,2,1,10
+75,Wal kurakkan (??? ????????) / Belathana (?????),POACEAE,Eleusine indica,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+76,Wal lunu,AMARYLLIDACEAE,Pancratium zeylanicum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+77,Wal munamal,ULMACEAE,Aphananthe cuspidata,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,2,4,2
+78,Wal pathpadagam,RUBIACEAE,Oldenlandia corymbosa,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,1
+79,Wal pichcha/ Wekonda,OLEACEAE,Jasminum angustifolium var. angustifolium,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+80,Wal rasakinda (??? ?????),CUCURBITACEAE,Zanonia indica,4,1,0,0,0,1,1,0,1,0,0,0,1,0,2,1,4,7
+81,Wal sapu,MAGNOLIACEAE,Michelia nilagirica var. walkeri,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+82,Wal suriyakantha / Titta / Padimella,ASTERACEAE,Tithonia diversifolia,1,1,0,0,0,2,1,0,0,0,0,0,1,0,3,2,1,1
+83,Wal uk,POACEAE,Saccharum spontaneum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+84,Wal-ehetu (???-?????),MORACEAE,Ficus heterophylla,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,11
+85,Walangasal (???????),MYRSINACEAE,Embelia ribes,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,2,1,2
+86,Wali damba (??? ??),MYRTACEAE,Syzygium umbrosum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,2,10
+87,Walu nuga (??????),MORACEAE,Ficus benjamina var.benjamina,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+88,Wana idala / Rawana idala,RUBIACEAE,Wendlandia bicuspidata,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,10
+89,Wanamee,SAPOTACEAE,Madhuca fulva,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,10
+90,Wanduru me (????? ??) / Achariya-pala (??????? ??),FABACEAE,Mucuna pruriens,4,2,0,0,1,1,1,0,0,0,0,0,1,0,3,2,1,2
+91,Wara (???),ASCLEPIADACEAE,Calotropis gigantea,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+92,Wathabhanga (??????) / Ketta (?????),NYCTAGINACEAE,Pisonia grandis,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,11
+93,Wattakka (????????),CUCURBITACEAE,Cucurbita maxima,2,1,0,0,0,2,0,0,0,1,0,0,0,0,3,2,1,7
+94,Wedapana (??????) / Et kara bembiya (????? ?????) / Ganda pana (?????),RUTACEAE,Clausena dentata,1,2,0,1,0,1,1,0,0,0,0,0,1,0,2,2,1,2
+95,Weera (???),EUPHORBIACEAE,Drypetes sepiaria,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,2,11
+96,Wel bebila,MALVACEAE,Sida cordata,1,1,0,0,0,2,1,0,0,0,0,0,1,0,3,1,1,4
+97,Wel dehi (???? ????) / Katuniyanda (???????),SALVADORACEAE,Azima tetracantha,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,11
+98,Wel eth kalanduru (???? ??? ???????),CYPERACEAE,Cyperus dubius,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,1
+99,Wel kahambiliya (???? ????????),EUPHORBIACEAE,Tragia hispida,4,1,0,0,0,2,1,0,0,0,0,0,1,0,3,2,1,2
+100,Wel kaila (???? ????) / Kaila (????) / Gas dummella (??? ?????????),EUPHORBIACEAE,Phyllanthus reticulatus,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,11
+101,Wel karalheba (???? ???????),AMARANTHACEAE,Pupalia lappacea,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,10
+102,Wel keliya (???? ?????),TILIACEAE,Grewia carpinifolia,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,2
+103,Wel keppetiya (???? ??????????),EUPHORBIACEAE,Croton aromaticus,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,7
+104,Wel mottu (???? ??????),ASCLEPIADACEAE,Ceropegia candelabrum sub sp. Tuberosa,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+105,Wel radaliya (???? ?????),CONNARACEAE,Connarus championii,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,11
+106,Wel thibbatu,SOLANACEAE,Solanum trilobatum,4,1,0,0,0,3,1,0,0,0,0,0,1,0,2,1,1,6
+107,Weli atha (???? ???),ANNONACEAE,Annona reticulata,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,3,1,11
+108,Weli kaha / Dedi kaha,MELASTOMACEAE,Memecylon capitellatum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,11
+109,Weliwenna (?????????),EUPHORBIACEAE,Dimorphocalyx glabellus,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+110,Welmadata (???? ???),RUBIACEAE,Rubia cordifolia,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,4,7
+111,Weluk (??????),ASCLEPIADACEAE,Caralluma umbellata,7,1,0,0,0,2,1,0,0,0,0,0,1,0,1,3,2,5
+112,Weni-wel (????????) / Ban-wel (????????),MENISPERMACEAE,Coscinium fenestratum,1,1,0,0,0,1,1,0,0,0,0,0,1,0,3,1,4,6
+113,Weradi navahandi,EUPHORBIACEAE,Euphorbia tirucalli,7,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,2,5
+114,Weradi sandaraja,ACANTHACEAE,Fittonia verschaffeltii var. argyroneura,2,1,0,0,0,1,0,0,0,1,0,0,0,0,3,2,2,7
+115,Weralu (?????),ELAEOCARPACEAE,Elaeocarpus serratus,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,1
+116,Wesak mal (????? ???),ORCHIDACEAE,Dendrobium maccarthiae,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,1
+117,Wetakeiya,PANDANACEAE,Pandanus kaida,4,1,0,0,0,2,1,0,0,0,0,0,1,0,1,3,1,5
+118,Wewel (??????) / Heen wewel (???? ??????),ARECACEAE,Calamus rotang,3,2,0,1,0,1,1,0,0,0,0,0,1,0,2,3,1,1
+119,Wadakaha (????),ACORACEAE,Acorus calamus,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+120,Wagapul,HYPOXIDACEAE,Molineria capitulata,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,11
+121,Wal anguna (??? ????),APOCYNACEAE,Parsonsia alboflavescens,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,10
+122,Wal asamodagum (??? ????????),APIACEAE,Pimpinella heyneana,4,2,0,0,1,2,1,0,0,0,0,0,1,0,3,3,4,10
+123,Wal bilin/Kumbalu,SIMAROUBACEAE,Ailanthus triphysa,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,11
+124,Wal dambala (??? ???),FABACEAE,Dolichos trilobus,1,2,0,0,1,1,1,0,0,0,0,0,1,0,3,1,1,2
+125,Wal ehela,FABACEAE,Pterocarpus indicus,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,2
+126,Wal erandu (??? ????),APIACEAE,Bupleurum ramosissimum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,8
+127,Wal gurenda (??? ???????) / Bu renda (?? ?????),VERBENACEAE,Clerodendrum inerme,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,2,8
+128,Wal jambu,MYRTACEAE,Syzygium firmum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,2,2
+129,Wal kaduru (??? ?????) / Kukul kaduru (?????? ?????),APOCYNACEAE,Petchia ceylanica,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,2
+130,Wal kapparawalliya (??? ???????????),LAMIACEAE,Plectranthus barbatus,2,1,0,0,0,3,1,0,0,0,0,0,1,0,2,2,2,11
+131,Wal karapincha,RUTACEAE,Micromelum minutum var. ceylanicum,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,11
+132,Wal kobbe,SAPINDACEAE,Allophylus zeylanicus,8,2,0,0,1,1,1,0,0,0,0,0,1,0,2,1,1,1
+133,Wal kolondu (??? ????????),ASTERACEAE,Artemisia dubia var. grata,5,1,0,0,0,3,0,0,0,1,0,0,0,0,2,1,1,11
+134,Wal kos (???????) / Kosbada (??????),LAURACEAE,Litsea quinqueflora,6,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,2,11
+135,Wal koththamalli,SCROPHULARIACEAE,Scoparia dulcis,4,1,0,0,0,3,1,0,0,0,0,0,1,0,2,3,2,5
+136,Wal kurundu (??? ??????) / Sewel Kurundu (?????? ??????),LAURACEAE,Cinnamomum dubium,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,2,1,2
+137,Wal meneri (??? ??????),POACEAE,Panicum miliaceum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+138,Wal nanu (??? ????),FABACEAE,Stylosanthes fruticosa,4,2,0,0,1,2,1,0,0,0,0,0,1,0,1,1,1,11
+139,Wal pichcha / Wekanda,OLEACEAE,Jasminum auriculatum,8,2,0,1,0,1,1,0,0,0,0,0,1,0,2,2,1,2
+140,Wal rambuttan / Urukossa,ASTERACEAE,Xanthium indicum,4,1,0,0,0,3,1,0,0,0,0,0,1,0,3,1,1,7
+141,Wal ruk-attana (???? ????-?????) / Kiri wel (???? ????),PERIPLOCACEAE,Cryptolepis buchananii,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,4,11
+142,Wal sirithekku (??? ??????????) / Balaya (?????),VERBENACEAE,Clerodendrum indicum,1,1,0,0,0,1,1,0,1,0,0,0,1,0,2,2,1,1
+143,Wal thala (??????) / Heen thala (???????),LAMIACEAE,Ocimum americanum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,11
+144,Wal waraka (??? ????),FLACOURTIACEAE,Casearia zeylanica,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,4,11
+145,Walahalla (????????),FABACEAE,Cassia surattensis ssp. glauca,8,2,0,1,0,1,1,0,0,0,0,0,1,0,2,3,2,2
+146,Walawenna (????????),ADIANTACEAE,Adiantum capillus veneris,6,1,0,0,0,3,1,0,0,0,0,0,1,0,3,1,2,6
+147,Wallapatta (?????????) / Pattawalla (?????????) / Wal-aha (??? ??),THYMELAEACEAE,Gyrinops walla,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,11
+148,Wambatu,SOLANACEAE,Solanum macrocarpon,6,1,0,0,0,3,1,0,0,0,0,0,1,0,3,1,2,8
+149,Wana sapu / Rata sapu,ANNONACEAE,Cananga odorata,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+150,Wanaraja (?????),ORCHIDACEAE,Anoectochilus setaceus,8,1,0,0,0,1,0,0,1,0,0,0,1,0,3,2,2,11
+151,Wanuk (?????),TILIACEAE,Corchorus capsularis,4,1,0,0,0,2,1,0,0,0,0,0,1,0,3,1,1,2
+152,Wasa thella,CONVOLVULACEAE,Ipomoea triloba,1,1,0,0,0,3,1,0,0,0,0,0,1,0,3,3,1,7
+153,Wathusudda,APOCYNACEAE,Tabernaemontana divaricata,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,4,11
+154,Wawiya (?????),MONIMIACEAE,Hortonia floribunda,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+155,Wee,POACEAE,Oryza sativa,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+156,Wel atha (???? ???),ANNONACEAE,Annona glabra,8,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,11
+157,Wel beli / Eta kirindi wel,LOGANIACEAE,Strychnos wallichiana,8,1,0,0,0,1,1,0,0,0,0,0,1,0,1,2,4,11
+158,Wel dodam (???? ?????) / Passion fruit (????? ????),PASSIFLORACEAE,Passiflora edulis,8,1,0,0,0,3,1,0,0,0,0,0,1,0,3,3,1,7
+159,Wel hiri (???? ????),CYPERACEAE,Cyperus iria,3,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,5
+160,Wel kahambiliya (???? ????????),EUPHORBIACEAE,Tragia involucrata,1,1,0,0,0,2,1,0,0,0,0,0,1,0,2,2,4,7
+161,Wel kapuru (???? ?????),ERICACEAE,Gaultheria leschenaultii,8,1,0,0,0,2,0,1,0,0,0,0,1,0,2,1,1,11
+162,Wel kawdudala (???? ???????),RUBIACEAE,Hedyotis pumila,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+163,Wel keppetiya (???? ??????????),EUPHORBIACEAE,Mallotus repandus,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,4,7
+164,Wel kohila,ARACEAE,Syngonium angustatum,4,2,0,0,1,1,1,0,1,0,0,0,1,0,2,2,1,10
+165,Wel penela,SAPINDACEAE,Cardiospermum halicacabum,4,2,0,0,1,3,1,0,0,0,0,0,1,0,2,2,1,6
+166,Wel rukaththana (???? ?????????),APOCYNACEAE,Allamanda cathartica,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,5,11
+167,Wela (????),CAPPARACEAE,Cleome gynandra,6,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,2,11
+168,Weli jambu/Seeni Jambu,MYRTACEAE,Syzygium jambos,4,1,0,0,0,1,1,0,1,0,0,0,1,0,2,1,1,2
+169,Welipenna (?????????) / Weli piyana (?????????),RHIZOPHORACEAE,Anisophyllea cinnamomoides,8,2,0,1,0,1,1,0,0,0,0,0,1,0,1,1,4,11
+170,Weliweriya (?????????),FABACEAE,Indigofera galegoides,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,11
+171,Welmee,FABACEAE,Glycyrrhiza glabra,8,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,2,11
+172,Weluk (??????),POACEAE,Phragmites karka,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,5
+173,Weradi kelinda,APOCYNACEAE,Wrightia arborea,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,2,4,8
+174,Weradi sal,LECYTHIDACEAE,Couroupita surinamensis,6,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,11
+175,Weradi sinchona,SIMAROUBACEAE,Quassia amara,6,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,4,10
+176,Weraniya (??????),RUBIACEAE,Hedyotis fruticosa,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,11
+177,Weta erandu / Rata erandu,EUPHORBIACEAE,Jatropha curcas,1,1,0,0,0,2,1,0,0,0,0,0,1,0,3,1,1,6
+178,Wewarani (????????),LAURACEAE,Alseodaphne semecarpifolia,6,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,2,10
+179,Wilandawenna (?????????),LAMIACEAE,Leucas biflora,8,1,0,0,0,2,1,0,0,0,0,0,1,0,2,2,2,2
+180,Takkada (?????),GOODENIACEAE,Scaevola taccada,6,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,2,8
+181,Tawenna (??????) / Gal mora (??? ???),LAURACEAE,Cryptocarya membranacea,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,8
+182,Telabu / Thelembu,STERCULIACEAE,Sterculia foetida,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,4,10
+183,Thae,THEACEAE,Camellia sinensis,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,3,1,1
+184,Thal (???),ARECACEAE,Borassus flabellifer,8,1,0,0,0,2,1,0,0,0,0,0,1,0,1,3,1,9
+185,Thala gaha (?? ??),ARECACEAE,Corypha umbraculifera,8,1,0,0,0,2,1,0,0,0,0,0,1,0,1,3,1,7
+186,Tharana (???),RUBIACEAE,Tarenna asiatica,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,1
+187,Thel kekuna / Rata kekuna,EUPHORBIACEAE,Aleurites moluccana,1,1,0,0,0,3,1,0,0,0,0,0,1,0,3,1,1,6
+188,Thelakeeriya,EUPHORBIACEAE,Excoecaria agallocha,8,1,0,0,0,3,1,0,0,0,0,0,1,0,2,1,1,1
+189,Thimbiri (??????),EBENACEAE,Diospyros malabarica,1,2,0,1,0,1,1,0,0,0,0,0,1,0,2,3,1,1
+190,Thirasthawalu (???????????),CONVOLVULACEAE,Operculina turpethum,1,1,0,0,0,1,1,0,0,0,0,0,1,0,3,3,2,7
+191,Thiththa hondala (????? ????),CUCURBITACEAE,Trichosanthes tricuspida,8,1,0,0,0,3,1,0,0,0,0,0,1,0,3,2,2,7
+192,Thiththa thibbatu,SOLANACEAE,Solanum violaceum,8,1,0,0,0,3,1,0,0,0,0,0,1,0,3,1,1,7
+193,Thiththa weralu (????? ?????),ELAEOCARPACEAE,Elaeocarpus amoenus,8,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,1
+194,Thotila (?????),BIGNONIACEAE,Oroxylum indicum,8,2,0,0,1,1,1,0,0,0,0,0,1,0,2,2,1,1
+195,Thunbo attana (?????? ?????),SOLANACEAE,Brugmansia suaveolens,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+196,Thuwarala,VALERIANACEAE,Valleriana jatamansi,1,1,0,0,0,2,1,0,0,0,0,0,1,0,3,3,2,7
+197,Tiniya (?????) / Tinniya (???????),DIPTEROCARPACEAE,Doona congestiflora,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+198,Toona,MELIACEAE,Toona ciliata,4,2,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+199,Tridax,ASTERACEAE,Tridax procumbens,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,6
+200,Tammenna,EUPHORBIACEAE,Mischodon zeylanicus,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,1
+201,Thunpath kurundu,RUTACEAE,Pleiospermium alatum,6,2,0,0,1,1,1,0,0,0,0,0,1,0,2,1,2,10
+202,Tiloguru,POLYGALACEAE,Polygala javana,6,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,2,10
+203,Titta kohomba (????? ????? ) / Kaputu gedi (????? ????),SIMAROUBACEAE,Brucea javanica,4,2,0,1,0,2,1,0,0,0,0,0,1,0,2,1,1,2
+204,Tora parippu (??????????) / Rata tora (?????),FABACEAE,Cajanus cajan,8,2,0,0,1,1,1,0,0,0,0,0,1,0,2,1,1,11
+205,Tuththiri (????????),POACEAE,Chrysopogon aciculatus,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,5
+206,Sabukku (??????),PROTEACEAE,Grevillea robusta,4,2,0,1,0,3,1,0,0,0,0,0,1,0,2,2,1,11
+207,Sakmal (??????),GENTIANACEAE,Canscora decussata,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,2,1,1
+208,Samadana (??????),ACANTHACEAE,Blepharis integrifolia,6,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,2,11
+209,Saman pichcha,OLEACEAE,Jasminum officinale,8,2,0,1,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+210,Sanjeewani (???????),PTERIDACEAE,Actinopteris dichotoma,8,1,0,0,0,2,1,0,0,0,0,0,1,0,1,3,6,6
+211,Sanninayan,ASTERACEAE,Vernonia anthelmintica,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,2,1,5
+212,Sapsanda (?????),ARISTOLOCHIACEAE,Aristolochia indica,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,7
+213,Savendara,POACEAE,Vetiveria zizanioides,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+214,Seeni aththa (???? ???),ANNONACEAE,Annona squamosa,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+215,Seenuk (??????),EUPHORBIACEAE,Euphorbia tortilis,7,1,0,0,0,2,1,0,0,0,0,0,1,0,1,3,2,5
+216,Sepadilla / Rata mee,SAPOTACEAE,Manilkara zapota,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+217,Sera (???),POACEAE,Cymbopogon citratus,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+218,Shalaparni (????????),FABACEAE,Desmodium gangeticum,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,2,2
+219,Sietha pera (???? ???),MYRTACEAE,Rhodomyrtus tomentosa,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+220,Siriwedi babila (???????? ?????),MALVACEAE,Hibiscus micranthus,4,1,0,0,0,3,1,0,0,0,0,0,1,0,2,1,1,7
+221,Siviya (????? ) / Mala bulat (?? ?????),PIPERACEAE,Piper chuvya,1,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,7
+222,Soya bonchi (???? ?????) / Boo me (?? ??),FABACEAE,Glycine max,8,2,0,0,1,1,1,0,0,0,0,0,1,0,2,1,1,2
+223,Sudana kola (???? ???),ASTERACEAE,Gamochaeta purpurea,6,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,2,5
+224,Sudu avara (???? ???) / Wal avara (??? ???),FABACEAE,Canavalia ensiformis,4,1,0,0,0,3,1,0,0,0,0,0,1,0,2,3,1,11
+225,Sudu gandapana,VERBENACEAE,Lantana camara var. alba,8,1,0,0,0,2,1,0,0,0,0,0,1,0,2,2,1,1
+226,Sudu kadumberiya (???? ???????????),EBENACEAE,Diospyros sylvatica,8,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,4,11
+227,Sudu kimbulwenna (???? ???????????),POLYGONACEAE,Persicaria attenuata var. pulchra,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+228,Sudu lunu,ALLIACEAE,Allium sativum,1,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+229,Sudu paravimal (???? ????????),ORCHIDACEAE,Dendrobium crumenatum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,2,11
+230,Sudu thumba (???? ???),LAMIACEAE,Leucas marrubioides,4,1,0,0,0,3,1,0,0,0,0,0,1,0,1,1,1,1
+231,Sudu wellangiriya (???? ????????????),CAPPARACEAE,Capparis moonii,6,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+232,Sulu nai (???? ???),ACANTHACEAE,Rungia repens,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+233,Suriyakantha (??????????),ASTERACEAE,Helianthus annuus,1,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,7
+234,Suwanda bebila (???? ?????),MALVACEAE,Pavonia odorata,1,1,0,0,0,3,1,0,0,0,0,0,1,0,3,1,1,7
+235,Sadikka,MYRISTICACEAE,Myristica fragrans,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+236,Saldiri (????????),APIACEAE,Apium graveolens,8,1,0,1,0,3,1,0,0,0,0,0,1,0,2,2,1,10
+237,Samadara,SIMAROUBACEAE,Quassia indica,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+238,Sani,TILIACEAE,Corchorus olitorius,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,1
+239,Sankarajata makuta (?????? ????),EUPHORBIACEAE,Acalypha godseffiana,1,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,7
+240,Sapsanda (?????),ARISTOLOCHIACEAE,Aristolochia bracteolata,6,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+241,Saummal / Saya,RUBIACEAE,Oldenlandia umbellata,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,5
+242,Seeni anoda (???? ?????),ANNONACEAE,Annona cherimola,8,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,11
+243,Seenidda,FABACEAE,Vachellia farnesiana,8,2,1,0,0,1,1,0,0,0,0,0,1,0,2,1,2,11
+244,Senehe kola (?????? ???),FABACEAE,Cassia senna,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+245,Sepalika,NYCTANTHACEAE,Nyctanthes arbor-tristis,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+246,Sevan mediya (????? ?????) / Bu thediya (?? ?????),MORACEAE,Ficus exasperata,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+247,Sidaran (??????),RUTACEAE,Citrus medica,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,2,11
+248,Siribo (??????) / Ratabulath wel (??????? ????),PIPERACEAE,Piper siriboa,1,1,0,0,0,1,1,0,0,0,0,0,1,0,3,1,1,7
+249,Siriwedi bebila,MALVACEAE,Sida mysorensis,1,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,10
+250,Siyambala,FABACEAE,Tamarindus indica,8,2,1,0,0,1,1,0,0,0,0,0,1,0,2,1,2,11
+251,Stroberi,ROSACEAE,Fragaria vesca,6,2,0,0,1,2,1,0,0,0,0,0,1,0,2,3,2,10
+252,Sudu araliya,APOCYNACEAE,Plumeria obtusa,6,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,2,11
+253,Sudu bata thana,POACEAE,Brachiaria villosa,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,5
+254,Sudu handun,SANTALACEAE,Santalum album,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+255,Sudu kala wel (???? ??????) / Kala wel (?? ????),FABACEAE,Derris parviflora,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+256,Sudu liyan,EUPHORBIACEAE,Margaritaria cyanospermus,4,2,0,0,1,1,1,0,0,0,0,0,1,0,2,1,1,1
+257,Sudu mottu tana (???? ?????? ??),CYPERACEAE,Cyperus kyllingia,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+258,Sudu puruk (???? ??????),ACANTHACEAE,Justicia betonica,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+259,Sudu vishnukranthi,CONVOLVULACEAE,Evolvulus nummularius,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,2,7
+260,Sudut hampala (???? ??????),AMARANTHACEAE,Amaranthus tricolor,8,1,0,0,0,1,0,0,0,0,1,0,0,0,2,3,2,1
+261,Sulubu bebila / Wal bebila,MALVACEAE,Sida cordifolia,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,2,5,1
+262,Suwanda (????) / Honakka (???????),CLUSIACEAE,Mesua stylosa,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+263,Suwanda thala,LAMIACEAE,Ocimum basilicum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+264,Rabu,BRASSICACEAE,Raphanus sativus,8,1,0,0,0,3,1,0,0,0,0,0,1,0,2,1,2,1
+265,Raja pohottu,AMARANTHACEAE,Gomphrena globosa,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,2,1,10
+266,Ram (???),BIGNONIACEAE,Crescentia cujete,6,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,2,10
+267,Rambuk,POACEAE,Saccharum arundinaceum,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+268,Rammanissa (?????????),CAPPARACEAE,Cleome viscosa,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,10
+269,Rana thampala (????????),AMARANTHACEAE,Amaranthus hybridus var. erythrostachys,4,1,0,0,0,1,1,0,0,0,0,0,0,1,2,1,1,1
+270,Ranhiriya (????????),ASTERACEAE,Vicoa indica,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,7
+271,Ranwan katukarandu (?????? ???????),ACANTHACEAE,Barleria lupulina,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,10
+272,Rasa thel kola (?? ???? ???),CONVOLVULACEAE,Ipomoea sepiaria,1,1,0,0,0,1,1,0,0,0,0,0,1,0,3,1,1,7
+273,Rata aruda (?? ????),RUTACEAE,Peganum harmala,4,1,0,0,0,3,1,0,0,0,0,0,1,0,2,2,1,5
+274,Rata gova / Akkapana,CRASSULACEAE,Kalenchoe pinnata,8,1,0,0,0,2,1,0,0,0,0,0,1,0,2,2,2,1
+275,Rata Kaju (?? ???),FABACEAE,Arachis hypogaea,6,2,0,1,0,2,1,0,0,0,0,0,1,0,2,3,3,10
+276,Rata kekuna (???????),BURSERACEAE,Canarium commune,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+277,Rata mara (?????),FABACEAE,Albizia falcataria,4,2,1,0,0,1,1,0,0,0,0,0,1,0,1,1,1,7
+278,Rata nelli (?? ??????),EUPHORBIACEAE,Phyllanthus acidus,8,2,0,1,0,1,1,0,0,0,0,0,1,0,1,1,2,7
+279,Rata uguressa (??-????????),FLACOURTIACEAE,Flacourtia jangomas,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+280,Ratapuhul(?? ??????) / Tun tun (??? ???),PASSIFLORACEAE,Passiflora quadrangularis,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,7
+281,Rath beraliya (??? ??????),DIPTEROCARPACEAE,Hopea jucunda,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+282,Rath goraka (??? ?????),CLUSIACEAE,Garcinia quaesita,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+283,Rath keliya (??? ?????),LAURACEAE,Litsea longifolia,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+284,Rath kohomba (??? ?????),FABACEAE,Indigofera aspalathoides,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,10
+285,Rath pitawakka (??? ????????),EUPHORBIACEAE,Phyllanthus urinaria,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,2
+286,Rathmal / Rathambala,RUBIACEAE,Ixora coccinea,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+287,Rathu koboleela (??? ???????),FABACEAE,Bauhinia purpurea,8,1,0,0,0,2,1,0,0,0,0,0,1,0,1,1,2,7
+288,Rattana,POACEAE,Ischaemum ciliare,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,10
+289,Ratu kimbulwenna (??? ???????????),POLYGONACEAE,Persicaria barbata,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+290,Reli tana,POACEAE,Setaria palmifolia,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+291,Retta,ORCHIDACEAE,Vanda tessellata,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,5
+292,Rila rat tana,POACEAE,Ischaemum timorense var. zeylanicum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+293,Riti (????),MORACEAE,Antiaris toxicaria var. toxicaria,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+294,Rodukaetambilla,ROSACEAE,Rubus niveus,8,2,0,1,0,2,1,0,0,0,0,0,1,0,2,1,1,1
+295,Ruk Anguna (???? ????),ALANGIACEAE,Alangium salviifolium,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+296,Ruwan karanda (????? ???) / Gal karanda (??? ???),FABACEAE,Humboldtia laurifolia,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+297,Radaliya (?????),CONNARACEAE,Connarus monocarpus,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+298,Rajamaratu,POACEAE,Echinochloa frumentacea,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,10
+299,Ramba (??),CYPERACEAE,Cyperus javanicus,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+300,Rambutan,SAPINDACEAE,Nephelium lappaceum var. lappaceum,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+301,Rampe,PANDANACEAE,Pandanus amaryllifolius,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+302,Ranawara (?????),FABACEAE,Cassia auriculata,8,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,2,1
+303,Rankiri gokatu (??????? ?????),PAPAVERACEAE,Argemone mexicana,4,1,0,0,0,3,0,0,0,1,0,0,1,0,2,1,1,7
+304,Ranwan keekirindiya,ASTERACEAE,Wedelia chinensis,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,10
+305,Rasakinda,MENISPERMACEAE,Tinospora cordifolia,1,1,0,0,0,1,1,0,0,0,0,0,1,0,3,1,1,7
+306,Rata goraka (?? ?????),CLUSIACEAE,Garcinia xanthochymus,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,2,1
+307,Rata indi (?? ???),ARECACEAE,Phoenix dactylifera,4,2,0,1,0,1,1,0,0,0,0,0,1,0,1,3,1,10
+308,Rata karapincha (?? ???????),RUTACEAE,Clausena lansium,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+309,Rata lunu,ALLIACEAE,Allium cepa cv. group Cepa,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+310,Rata nelli,EUPHORBIACEAE,Phyllanthus heyneanus,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,2,11
+311,Rata pamba / Rathingna mal,CONVOLVULACEAE,Ipomoea quamoclit,3,2,0,1,0,1,1,0,0,0,0,0,1,0,1,1,1,1
+312,Ratala / Kiri habarala,ARACEAE,Xanthosoma sagittifolium,1,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,7
+313,Ratatiya,SAPOTACEAE,Palaquium thwaitesii,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,1
+314,Rath erandu,EUPHORBIACEAE,Jatropha glandulifera,5,1,0,0,0,2,1,0,0,0,0,0,1,0,3,3,1,7
+315,Rath handun,FABACEAE,Pterocarpus santalinu,8,2,0,0,1,1,1,0,0,0,0,0,1,0,2,1,2,7
+316,Rath kihiriya (??????????) / Kaippu (???????),FABACEAE,Acacia chundra,3,2,1,0,0,1,1,0,0,0,0,0,1,0,1,1,1,1
+317,Rath nitul,PLUMBAGINACEAE,Plumbago indica,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+318,Rathatiya (?????) / Mihiriya (???????),THEACEAE,Gordonia ceylanica,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+319,Rathu erandu,EUPHORBIACEAE,Jatropha gossypiifolia var. elegans,1,1,0,0,0,2,1,0,0,0,0,0,0,1,3,1,1,7
+320,Rathu lunu,ALLIACEAE,Allium cepa cv. group Aggregatum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+321,Ratu aba (??? ??),BRASSICACEAE,Brassica campestris var. rapa,1,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,2,7
+322,Ratu wa (??? ??),FABACEAE,Cassia roxburghii,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,2,2
+323,Renu olu,MENYANTHACEAE,Nymphoides aurantiaca,8,1,0,0,0,1,1,0,0,0,0,0,1,0,3,1,3,7
+324,Rila puruk (??????????),ACANTHACEAE,Asystasia gangetica,1,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,7
+325,Rila-werella (????-???????),DRYOPTERIDACEAE,Dryopteris unita,4,2,0,1,0,1,1,0,0,0,0,0,1,0,1,1,1,1
+326,Ritigala mee/Kiri mee,SAPOTACEAE,Madhuca clavata,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+327,Rosa,ROSACEAE,Rosa alba,4,2,0,0,1,2,1,0,0,0,0,0,1,0,2,1,1,2
+328,Rutu mihiriya,THEACEAE,Adinandra lasiopetala,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,8
+329,O keiya,PANDANACEAE,Pandanus ceylanicus,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+330,Okuru (?????),EUPHORBIACEAE,Cleidion spiciflorum,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,11
+331,Olu / Et-olu,NYMPHAEACEAE,Nymphaea pubescens,8,1,0,0,0,1,1,0,0,0,0,0,1,0,3,3,3,12
+332,Opalu (????),FABACEAE,Cynometra iripa,6,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,2,10
+333,Owila (?????),ANNONACEAE,Polyalthia longifolia,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,11
+334,Oduthalan (???????),LAMIACEAE,Mentha arvensis var. javanica,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,2,1,1
+335,Olinda (????),FABACEAE,Abrus precatorius,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,3,2
+336,Omara (?????),ANNONACEAE,Polyalthia coffeoides,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,11
+337,Opinna (???????),EUPHORBIACEAE,Trewia nudiflora,1,1,0,0,0,1,1,0,0,0,0,0,1,0,3,3,1,7
+338,Padmakashta,ROSACEAE,Prunus cerasoides,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,11
+339,Palala,POLYGALACEAE,Xanthophyllum zeylanicum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,4,2
+340,Palatu (?????),HERNANDIACEAE,Hernandia nymphaeifolia,1,1,0,0,0,1,1,0,0,0,0,0,1,0,3,1,1,7
+341,Palu,SAPOTACEAE,Manilkara hexandra,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,2,1
+342,Pamburu,RUTACEAE,Pamburus missionis,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,2,1
+343,Panakka (???????),CELASTRACEAE,Pleurostylia opposita,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+344,Pandam gaha (?????? ??),BIGNONIACEAE,Parmentiera cerifera,8,2,0,0,1,1,1,0,0,0,0,0,1,0,2,2,1,1
+345,Panu ala,ARACEAE,Typhonium trilobatum,1,1,0,0,0,3,1,0,1,0,0,0,1,0,2,3,1,7
+346,Panu habarala,ARACEAE,Alocasia cucullata,1,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,7
+347,Pasengilla (????????),CUCURBITACEAE,Diplocyclos palmatus,5,1,0,0,0,2,1,0,0,0,0,0,1,0,3,1,1,7
+348,Path ulkenda (??? ????????),ANNONACEAE,Polyalthia persicaefolia,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,2,1
+349,Pathola,CUCURBITACEAE,Trichosanthes anguina,8,1,0,0,0,3,1,0,0,0,0,0,1,0,3,1,1,7
+350,Pati beru / Pati dathu,OPHIOGLOSACEAE,Ophioglossum pendulum,4,1,0,0,0,3,1,0,0,0,0,0,1,0,1,3,1,10
+351,Patika wel (????? ????) / Kalu bambara wel (??? ??? ????),ANNONACEAE,Artabotrys zeylanicus,4,1,0,0,0,1,1,0,1,0,0,0,1,0,2,1,1,1
+352,Patta epala,MALVACEAE,Urena lobata,8,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,7
+353,Pavatta (???????),RUBIACEAE,Pavetta indica,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+354,Penda (???),ERIOCAULACEAE,Eriocaulon setaceum,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+355,Peni thora (???? ???),FABACEAE,Cassia occidentalis,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+356,Pera thambala (??? ???),RUBIACEAE,Gaertnera vaginans ssp.vaginans,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,10
+357,Pethiwila,LOBELIACEAE,Lobelia alsinoides,8,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,2,7
+358,Pihimbiya (???????),SAPINDACEAE,Filicium decipiens,4,2,0,1,0,3,1,0,0,0,0,0,1,0,2,1,2,10
+359,Pilila (?????),LORANTHACEAE,Barathranthus nodiflorus,4,1,0,0,0,3,1,0,0,0,0,0,1,0,2,1,2,1
+360,Pini beraliya (???? ??????) / Tiniya dun (????? ????),DIPTEROCARPACEAE,Doona ovalifolia,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,4,1
+361,Pini mara / Mara,FABACEAE,Samanea saman,4,2,1,0,0,1,1,0,0,0,0,0,1,0,2,1,2,11
+362,Pinibaru,MELASTOMACEAE,Memecylon rivulare,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,2,10
+363,Pinikaral,FABACEAE,Pithecellobium dulce,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+364,Pipigngna (????????) / Thiyambara (??????),CUCURBITACEAE,Cucumis sativus,1,1,0,0,0,1,1,0,0,0,0,0,1,0,3,3,1,7
+365,Pitawakka (????????),EUPHORBIACEAE,Phyllanthus amarus,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,3,2
+366,Podidel,APIACEAE,Hydrocotyle sibthorpioides,8,1,0,0,0,3,1,0,0,0,0,0,1,0,3,1,2,7
+367,Poinsetiya,EUPHORBIACEAE,Euphorbia pulcherrima,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+368,Pol (???? ) / Thembili (??????),ARECACEAE,Cocos nucifera,4,2,1,0,0,1,1,0,0,0,0,0,1,0,2,3,1,10
+369,Polon me,FABACEAE,Vigna unguiculata ssp. Sespuipedalis,8,2,0,0,1,3,1,0,0,0,0,0,1,0,3,1,1,1
+370,Polpala (???????) / Polkudu pala (???????????),AMARANTHACEAE,Aerva javanica,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,2,1
+371,Pota wel,ARACEAE,Pothos scandens,4,1,0,0,0,3,1,0,0,0,0,0,1,0,1,1,2,11
+372,Potho pan (???? ???),CYPERACEAE,Scleria poaeformis,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+373,Pothu pala (???????),CONVOLVULACEAE,Aniseia martinicensis,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,2,11
+374,Pothuberiya,OLACACEAE,Strombosia ceylanica,8,1,0,0,0,1,1,0,1,0,0,0,1,0,2,1,2,1
+375,Pulila (?????) / Kiri pella (???? ?????),MORACEAE,Ficus tsjahela,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+376,Pupula / Papula / Heen botiya,ASTERACEAE,Vernonia zeylanica,8,1,0,0,0,3,1,0,0,0,0,0,1,0,2,1,2,11
+377,Puswenna (?????????),FABACEAE,Uraria picta,4,2,0,1,0,1,1,0,0,0,0,1,0,0,2,1,1,11
+378,Puwak gediya wel (????? ?????? ????),MALPIGHIACEAE,Hiptage benghalensis,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+379,Pahanabeya,SAXIFRAGINACEAE,Saxifraga ligulata,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,2,1
+380,Palanga (???) / Palukan (???????),ANNONACEAE,Uvaria zeylanica,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+381,Palol (?????),BIGNONIACEAE,Stereospermum suaveolens,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+382,Palu thana (??? ??),CYPERACEAE,Fuirena umbellata,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,5
+383,Pana (???) / Koha kota (???????),RHIZOPHORACEAE,Cassipourea ceylanica,8,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+384,Panamora (??????),DIPTEROCARPACEAE,Doona oblonga,8,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+385,Pangan,ANNONACEAE,Uvaria narum,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+386,Panu dan (??? ??) / Panu kera (??? ???),MYRTACEAE,Syzygium neesianum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+387,Panu nuga (??? ???),MORACEAE,Ficus microcarpa,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+388,Path kela (??? ???),EUPHORBIACEAE,Bridelia moonii,8,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+389,Pathangi (????),FABACEAE,Caesalpinia sappan,4,2,1,0,0,1,1,0,0,0,0,0,1,0,2,1,3,2
+390,Pathpadagam/Udetta,MOLLUGINACEAE,Mollugo cerviana,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,10
+391,Pati-emiya (???-????),RUBIACEAE,Dentella repens,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,1,1
+392,Patra werella (????? ???????) ru-koku,BLECHNACEAE,Blechnum orientale,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+393,Patte gas,POLYGONACEAE,Homalocladium platiycladum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,1
+394,Pelan,EUPHORBIACEAE,Putranjiva zeylanica,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+395,Peni dodam (???? ?????),RUTACEAE,Citrus sinensis,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,2,11
+396,Pera,MYRTACEAE,Psidium guajava,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,2,1
+397,Pethi thora (???? ???),FABACEAE,Cassia tora,6,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,2,10
+398,Peyas,ROSACEAE,Pyrus communis,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+399,Pilihudu pala (???????????),PARKERIACEAE,Ceratopteris thalictroides,4,2,0,1,0,3,1,0,0,0,0,0,1,0,2,1,2,1
+400,Pini baratana,POACEAE,Themeda tremula,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,5
+401,Pini jambu,MYRTACEAE,Syzygium samarangense,4,1,0,0,0,1,1,0,1,0,0,0,1,0,2,3,1,1
+402,Pini thuththiri,POACEAE,Eriachne triseta,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+403,Pinibaru (???????),DIPTEROCARPACEAE,Hopea modesta,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,7
+404,Pinna (?????) / Gas pinna (??? ?????),VERBENACEAE,Clerodendrum infortunatum,1,1,0,0,0,1,1,0,0,0,0,0,1,0,3,3,1,7
+405,Pita sudu sarana (??? ???? ????),NYCTAGINACEAE,Boerhavia diffusa,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,2,7
+406,Podi arisi ( ???? ?????),EUPHORBIACEAE,Croton officinalis,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+407,Podisingnomaran,ASTERACEAE,Eupatorium odoratum,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,1
+408,Pokuru wada (?????? ??),MALVACEAE,Hibiscus rosa-sinensis,8,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,2
+409,Pollu (??????) / Kamba (??),POACEAE,Pennisetum glaucum,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,5
+410,Polon wattakka (?????? ????????) / Rata labu (?? ???),CUCURBITACEAE,Cucurbita moschata,8,1,0,0,0,3,1,0,0,1,0,0,1,0,3,1,1,7
+411,Pothu hondala (???? ????),PASSIFLORACEAE,Adenia wightiana,4,1,0,0,0,3,1,0,0,0,0,0,1,0,2,1,1,6
+412,Pothu tana,POACEAE,Axonopus compressus,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+413,Potu thana,POACEAE,Dactyloctenium aegyptium,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,5
+414,Pus wel (???? ????),FABACEAE,Entada pusaetha,6,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,2,10
+415,Puwak (?????),ARECACEAE,Areca catechu,4,2,0,1,0,1,1,0,0,0,0,0,1,0,1,3,1,10
+416,Puwangu (?????),MELIACEAE,Aglaia odoratissima,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,11
+417,Na,CLUSIACEAE,Mesua ferrea,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+418,Nagabala,MALVACEAE,Sida Spinosa,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,7
+419,Naha,THYMELAEACEAE,Gnidia glauca,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,2
+420,Nai miris/ Kochchi,SOLANACEAE,Capsicum frutescens,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+421,Naminan/ Nan-nan,FABACEAE,Cynometra culiflora,4,2,0,0,1,1,1,0,0,0,0,0,1,0,2,1,1,10
+422,Narawel,RANUNCULACEAE,Clematis gouriana,4,2,0,0,1,1,1,0,0,0,0,0,1,0,1,2,1,7
+423,Narilatha,ORCHIDACEAE,Habenaria crinifera,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+424,Narinaguta Wel,ORCHIDACEAE,Rhynchostylis retusa,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+425,Navahandi,CACTACEAE,Rhipsalis baccifera,7,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,5
+426,Nawa,STERCULIACEAE,Sterculia balanghas,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,7
+427,Neeramulliya/ Ikiriya,ACANTHACEAE,Hygrophila schulli,4,1,0,0,0,3,1,0,0,0,0,0,1,0,2,3,1,11
+428,Nelu,ACANTHACEAE,Strobilanthes lupulina,8,1,0,0,0,2,1,0,0,0,0,0,1,0,2,3,1,1
+429,Neralu,CELASTRACEAE,Cassine balae,6,1,0,0,0,3,1,0,0,0,0,0,1,0,2,2,2,10
+430,Neyadassa,THEACEAE,Eurya nitida var. nitida,4,1,0,0,0,2,1,0,0,0,0,0,1,0,3,1,1,1
+431,Nika/ Sudu nika/ Nil nika,VERBENACEAE,Vitex negundo,4,2,0,0,1,1,1,0,0,0,0,0,1,0,2,2,1,1
+432,Nika daula/Wal bilin,SABIACEAE,Meliosma pinnata ssp. barbulata,4,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+433,Nil Awariya,FABACEAE,Indigofera tinctoria,8,2,0,1,0,1,1,0,0,0,0,0,1,0,2,1,2,11
+434,Nil nithul,PLUMBAGINACEAE,Plumbago auriculata,6,1,0,0,0,1,1,0,0,0,0,0,1,0,2,3,2,8
+435,Nil puruk,ACANTHACEAE,Dipteracanthus prostratus,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+436,Nil Vishnukranthi,CONVOLVULACEAE,Evolvulus alsinoides,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,10
+437,Niri wel,MENISPERMACEAE,Hypserpa nitida,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,5,10
+438,Niyan wetakola,CUCURBITACEAE,Luffa cylindrica,1,1,0,0,0,3,1,0,0,0,0,0,1,0,3,1,1,7
+439,Niyagala,COLCHICACEAE,Gloriosa superba,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,1
+440,Naga meru ala,ORCHIDACEAE,Ipsea speciosa,4,1,0,0,0,1,1,0,0,0,0,0,1,0,1,3,1,10
+441,Nagadharana,MARIYNIACEAE,Martynia annua,8,1,0,0,0,3,1,0,0,0,0,0,1,0,3,3,1,7
+442,Nai batu/ Dehel batu,SOLANACEAE,Solanum capsicoides,1,1,0,0,0,3,1,0,0,0,0,0,1,0,3,2,1,7
+443,Namendora,DIPTEROCARPACEAE,Sunaptea scabriuscula,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+444,Napiriththa,MALVACEAE,Hibiscus furcatus,5,1,0,0,0,2,1,0,0,0,0,0,1,0,3,1,1,7
+445,Narawel,RANUNCULACEAE,Naravelia zeylanica,1,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,7
+446,Belathana,POACEAE,Eleusine indica,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,5
+447,Heen hathwariya,ASPARAGACEAE,Asparagus racemosus,3,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,1,5
+448,Iramusu,PERIPLOCACEAE,Hemidesmus indicus,3,1,0,0,0,1,0,0,0,0,0,1,1,0,1,1,1,5
+449,Gotukola,APIACEAE,Centella asiatica,2,1,0,0,0,4,1,0,0,0,0,0,1,0,2,2,2,11
+450,Bulath,PIPERACEAE,Piper betle,1,1,0,0,0,1,1,0,0,0,0,0,1,0,3,2,1,7
+451,Gammiris,PIPERACEAE,Piper nigrum,1,1,0,0,0,1,1,0,0,0,0,0,1,0,3,2,1,7
+452,Akkapana,CRASSULACEAE,Kalanchoe laciniata,8,1,0,0,0,4,1,0,0,0,0,0,1,0,2,2,1,1
+453,Iriweriya,ASTERACEAE,Plectranthus zeylanicus,8,1,0,0,0,4,1,0,0,0,0,0,1,0,2,2,1,1
+454,Weldodam,PASSIFLORACEAE,Passiflora edulis,8,1,0,0,0,4,1,0,0,0,0,0,1,0,2,2,1,1
+455,Dehi,RUTACEAE,Citrus aurantifolia,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+456,Murunga,MORINGACEAE,Moringa oleifera,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+457,Nil katarolu,FABACEAE,Clitoria ternatea,8,1,0,0,0,1,1,0,0,0,0,0,1,0,2,2,1,1
+458,Kohomba,MELIACEAE,Azadirachta indica,4,1,0,0,0,2,1,0,0,0,0,0,1,0,2,1,1,1
+459,Passion,PASSIFLORACEAE,Passiflora edulis,4,1,0,0,0,3,1,0,0,0,0,0,1,0,2,1,1,1
+460,Thel eradu,EUPHORBIACEAE,Ricinus communis,4,1,0,0,0,3,1,0,0,0,0,0,1,0,2,1,1,1
+461,Wel penela,SAPINDACEAE,Cardiospermum halicacabum,4,1,0,0,0,3,1,0,0,0,0,0,1,0,2,1,1,1
+462,Adathoda,ACANTHACEAE,Justicia adhathoda,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+463,Beli,RUTACEAE,Aegle marmelos,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+464,Bilin,OXALIDACEAE,Averrhoa bilimbi,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+465,Delum,PUNICACEAE,Puncia granatum,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+466,Inguru,ZINGIBERACEAE,Kaempferia galanga,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+467,Kamaranga,OXALIDACEAE,Averrhoa carambola,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+468,Karapincha,RUTACEAE,Murraya koenigii,4,1,0,0,0,4,1,0,0,0,0,0,1,0,2,1,1,1
+469,Kurudu,LAURACEAE,Cinnamomum zeylonica,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+470,Mukunuwenna,AMARANTHACEAE,Alternanthera sessilis,4,1,0,0,0,1,1,0,0,0,0,0,1,0,2,1,1,1
+471,Kuppameniya,EUPHORBIACEAE,Acalypha indica,8,1,0,0,0,2,1,0,0,0,0,0,1,0,2,2,1,1
