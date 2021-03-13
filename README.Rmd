@@ -68,7 +68,8 @@ ggplot(d11, aes(x= reorder(Arrangements_of_the_leaf, Percentage), y=Percentage))
 
 
 
-## Composition of the Sample by  Shapes of Leaves and Edge Type
+## Composition of the Sample by Shape and Edge Type of Leaves
+
 ```{r example2, warning=FALSE, message=FALSE}
 medlea <- filter(medlea, Arrangements == "Simple")
 
@@ -91,7 +92,8 @@ p3 <- ggplot(d11, aes(x= reorder(Edges, No_of_leaves), y=No_of_leaves)) + labs(y
 p2 + p3 + plot_layout(ncol = 1)
 ```
 
-## Composition by Shapes and Edges of Leaves in Simple Arrangement
+## Composition of the Sample by Shape and Edge type of Leaves in Simple Arrangement
+
 ```{r example4, warning=FALSE, message=FALSE}
 medlea <- filter(medlea, Shape != "Scale-like shaped")
 

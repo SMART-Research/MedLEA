@@ -88,7 +88,7 @@ p1
 
 <img src="man/figures/README-example3-1.png" width="100%" />
 
-## Composition of the Sample by Shapes of Leaves and Edge Type
+## Composition of the Sample by Shape and Edge Type of Leaves
 
 ``` r
 medlea <- filter(medlea, Arrangements == "Simple")
@@ -112,7 +112,7 @@ p2 + p3 + plot_layout(ncol = 1)
 
 <img src="man/figures/README-example5-1.png" width="100%" />
 
-## Composition by Shapes and Edges of Leaves in Simple Arrangement
+## Composition of the Sample by Shape and Edge type of Leaves in Simple Arrangement
 
 ``` r
 medlea <- filter(medlea, Shape != "Scale-like shaped")
