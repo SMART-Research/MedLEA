@@ -38,21 +38,6 @@ data("medlea")
 head(medlea)
 ```
 
-## Composition by Shapes of Leaves
-
-```{r example2, warning=FALSE, message=FALSE}
-library(packrat)
-library(tidyverse)
-library(here)
-library(ggplot2)
-library(viridis)
-
-d11 <- as.data.frame(table(medlea$Shape))
-names(d11) <- c('Shape_of_the_leaf', 'No_of_leaves')
-
-ggplot(d11, aes(x= reorder(Shape_of_the_leaf, No_of_leaves), y=No_of_leaves)) + labs(y="Number of leaves", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.6) + ggtitle("Composition of the Sample by the Shape Label") + coord_flip()
-
-```
 ## Wordcloud of Family of the Medicinal Plants
 ```{r example3, warning=FALSE, message=FALSE}
 unique(medlea$Family_Name)
@@ -72,6 +57,35 @@ df <- data.frame(word = names(words), freq = words)
 p1 <- wordcloud2(data = df, size = 0.9,color = 'random-dark', shape = 'pentagon')
 
 p1
+```
+
+
+## Composition by Shapes of Leaves in Simple Arrangement
+
+```{r example2, warning=FALSE, message=FALSE}
+library(packrat)
+library(tidyverse)
+library(here)
+library(ggplot2)
+library(viridis)
+
+medlea <- filter(medlea, Arrangements == "Simple")
+
+d11 <- as.data.frame(table(medlea$Shape))
+names(d11) <- c('Shape_of_the_leaf', 'No_of_leaves')
+
+ggplot(d11, aes(x= reorder(Shape_of_the_leaf, No_of_leaves), y=No_of_leaves)) + labs(y="Number of leaves", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.6) + ggtitle("Composition of the Sample by the Shape Label") + coord_flip()
+
+```
+## Composition by Shapes and Edges of Leaves in Simple Arrangement
+```{r example4, warning=FALSE, message=FALSE}
+medlea <- filter(medlea, Shape != "Scale-like shaped")
+
+d29 <- as.data.frame(table(medlea$Shape,medlea$Edges))
+names(d29) <- c('Shape','Edges','No_of_leaves')
+
+
+ggplot(d29, aes(fill = Edges, x=Shape , y=No_of_leaves)) + labs(y="Number of leaves", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.5, position = position_dodge()) + ggtitle("Composition of the sample by Shape Label and Edge type") + scale_fill_brewer(palette = "Set1")
 ```
 
 
