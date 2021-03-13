@@ -53,5 +53,25 @@ names(d11) <- c('Shape_of_the_leaf', 'No_of_leaves')
 ggplot(d11, aes(x= reorder(Shape_of_the_leaf, No_of_leaves), y=No_of_leaves)) + labs(y="Number of leaves", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.6) + ggtitle("Composition of the Sample by the Shape Label") + coord_flip()
 
 ```
+## Wordcloud of Family of the Medicinal Plants
+```{r example3, warning=FALSE, message=FALSE}
+unique(medlea$Family_Name)
+
+text1 <- medlea$Family_Name
+
+docs <- Corpus(VectorSource(text1))
+docs <- docs%>% tm_map(stripWhitespace)
+
+dtm <- TermDocumentMatrix(docs)
+matrix <- as.matrix(dtm)
+
+words <- sort(rowSums(matrix), decreasing = TRUE)
+
+df <- data.frame(word = names(words), freq = words)
+
+p1 <- wordcloud2(data = df, size = 0.9,color = 'random-dark', shape = 'pentagon')
+
+p1
+```
 
 
