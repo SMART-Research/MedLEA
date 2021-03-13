@@ -13,33 +13,35 @@ knitr::opts_chunk$set(
 )
 ```
 
-# virtualMEDgarden
+# MedLEA <img src="hexsticker/sticker.png" align="right" height="200"/>
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of virtualMEDgarden is to ...
+The  MedLEA package provides morphological and structural features of  471 medicinal plant leaves.
 
 ## Installation
 
-You can install the released version of virtualMEDgarden from [CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("virtualMEDgarden")
-```
-
-And the development version from [GitHub](https://github.com/) with:
+You can install the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("SMART-Research/virtualMEDgarden")
+devtools::install_github("SMART-Research/MedLEA")
 ```
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example, eval=FALSE}
-library(virtualMEDgarden)
-## basic example code
+```{r example1}
+library(MedLEA)
+data("medlea")
+head(medlea)
 ```
 
+## Composition by Shape of Leaves
+
+```{r example2, warning=FALSE}
+library(tidyverse)
+medlea %>% ggplot(aes(x=Shape)) + geom_bar() 
+
+```

@@ -1,0 +1,25 @@
+---
+title: "MedLEA"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{MedLEA}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MedLEA)
+```
+
+```{r example2, warning=FALSE}
+library(tidyverse)
+medlea %>% ggplot(aes(x=Shape)) + geom_bar() 
+
+```

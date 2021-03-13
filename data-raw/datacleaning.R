@@ -5,7 +5,7 @@ library(here) # To find the project's files based on the current working directo
 
 
 ##Load the dataset
-df  <- read.csv('Ruhuna_dataset.csv')
+df  <- read.csv('data-raw/Ruhuna_dataset.csv')
 
 df %>% head(5)
 df_col <- df %>% colnames()
@@ -114,6 +114,7 @@ df$Leaf_Base[df$Leaf_Base == '11'] <- 'Obtuse'
 df$Leaf_Base[df$Leaf_Base == '12'] <- 'Cleft'
 
 df %>% head(5)
-
+medlea <- df
 #To save as a rda file
-save(df,file = "Ruhuna_dataset.rda")
+save(medlea,file = "data/medlea.rda")
+

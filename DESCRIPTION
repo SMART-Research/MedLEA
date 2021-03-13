@@ -1,16 +1,23 @@
-Package: virtualMEDgarden
-Title: What the Package Does (One Line, Title Case)
+Package: MedLEA
+Title: Morphological and Structural Features of Medicinal Leaves 
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+    person(given = "Jayani Lakshika",
+           family = "Piyadi Gamage",
+           role = c("aut"),
+           email = "jayanilakshika76@gmail.com", comment="Data Collection, Data Wrangling")
+           person("Thiyanga S.", "Talagala", email = "ttalagala@sjp.ac.lk", role = c("aut", "cre"), comment=c(ORCID = "0000-0002-0656-9789"))
+Description: MedLEA contains a dataset of morphological and structural features of Medicibal LEAves (MedLEA). The features of each species is recorded by manually viewing the medicinal plant repository available at \url{http://www.instituteofayurveda.org/plants/}.
+License: GPL (>= 3)
+Depends:
+    R (>= 3.5.0)
+Imports:
+    tidyverse
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr
