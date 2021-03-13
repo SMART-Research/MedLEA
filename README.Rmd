@@ -40,6 +40,15 @@ head(medlea)
 
 ## Wordcloud of Family of the Medicinal Plants
 ```{r example3, warning=FALSE, message=FALSE}
+library(packrat)
+library(tidyverse)
+library(here)
+library(ggplot2)
+library(viridis)
+library(wordcloud2)
+library(tm)
+library(patchwork)
+
 unique(medlea$Family_Name)
 
 text1 <- medlea$Family_Name
@@ -59,24 +68,40 @@ p1 <- wordcloud2(data = df, size = 0.9,color = 'random-dark', shape = 'pentagon'
 p1
 ```
 
+```{r example6, warning=FALSE, message=FALSE}
+d11 <- as.data.frame(table(medlea$Arrangements))
+names(d11) <- c('Arrangements_of_the_leaf', 'No_of_leaves')
+d11 <- d11 %>% mutate(Percentage = round(No_of_leaves*100/sum(No_of_leaves),2))
+
+ggplot(d11, aes(x= reorder(Arrangements_of_the_leaf, Percentage), y=Percentage)) + labs(y="Percentage", x="Arrangements of the leaf") + geom_bar(stat = "identity", width = 0.3) + ggtitle("Composition of sample by the Leaf Arrangement")+ geom_label(aes(label = paste0(Percentage, "%")), nudge_y = -6, size = 4, label.padding = unit(0.175,"lines")) + coord_flip()
+```
+
+
 
 ## Composition by Shapes of Leaves in Simple Arrangement
 
 ```{r example2, warning=FALSE, message=FALSE}
-library(packrat)
-library(tidyverse)
-library(here)
-library(ggplot2)
-library(viridis)
-
 medlea <- filter(medlea, Arrangements == "Simple")
 
 d11 <- as.data.frame(table(medlea$Shape))
 names(d11) <- c('Shape_of_the_leaf', 'No_of_leaves')
 
-ggplot(d11, aes(x= reorder(Shape_of_the_leaf, No_of_leaves), y=No_of_leaves)) + labs(y="Number of leaves", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.6) + ggtitle("Composition of the Sample by the Shape Label") + coord_flip()
+p2 <- ggplot(d11, aes(x= reorder(Shape_of_the_leaf, No_of_leaves), y=No_of_leaves)) + labs(y="Number of leaves", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.6) + ggtitle("Composition of the Sample by the Shape Label") + coord_flip()
 
 ```
+
+## Composition by Edges of Leaves in Simple Arrangement
+```{r example5, warning=FALSE, message=FALSE}
+d11 <- as.data.frame(table(medlea$Edges))
+names(d11) <- c('Edges', 'No_of_leaves')
+#d11 <- d11 %>% mutate(Percentage = round(No_of_leaves*100/sum(No_of_leaves),0))
+#ggplot(d11, aes(x= reorder(Shape_of_the_leaf, Percentage), y=Percentage)) + labs(y="Percentage", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.5) + geom_label(aes(label = paste0(Percentage, "%")), nudge_y = -3, size = 3.25, label.padding = unit(0.175,"lines")) + ggtitle("Composition of the Sample by the Shape Label") + coord_flip()
+
+p3 <- ggplot(d11, aes(x= reorder(Edges, No_of_leaves), y=No_of_leaves)) + labs(y="Number of leaves", x="Edge type of the leaf") + geom_bar(stat = "identity", width = 0.6) + ggtitle("Composition of the Sample by the Edge Type") + coord_flip()
+
+p2 + p3 + plot_layout(ncol = 1)
+```
+
 ## Composition by Shapes and Edges of Leaves in Simple Arrangement
 ```{r example4, warning=FALSE, message=FALSE}
 medlea <- filter(medlea, Shape != "Scale-like shaped")
