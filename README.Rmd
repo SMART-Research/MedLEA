@@ -41,8 +41,16 @@ head(medlea)
 ## Composition by Shapes of Leaves
 
 ```{r example2, warning=FALSE, message=FALSE}
+library(packrat)
 library(tidyverse)
-medlea %>% ggplot(aes(x=Shape)) + geom_bar() 
+library(here)
+library(ggplot2)
+library(viridis)
+
+d11 <- as.data.frame(table(medlea$Shape))
+names(d11) <- c('Shape_of_the_leaf', 'No_of_leaves')
+
+ggplot(d11, aes(x= reorder(Shape_of_the_leaf, No_of_leaves), y=No_of_leaves)) + labs(y="Number of leaves", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.6) + ggtitle("Composition of the Sample by the Shape Label") + coord_flip()
 
 ```
 
