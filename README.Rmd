@@ -38,10 +38,12 @@ data("medlea")
 head(medlea)
 ```
 
-## Composition by Shape of Leaves
+## Composition by Shapes of Leaves
 
-```{r example2, warning=FALSE}
+```{r example2, warning=FALSE, message=FALSE}
 library(tidyverse)
 medlea %>% ggplot(aes(x=Shape)) + geom_bar() 
 
 ```
+
+
