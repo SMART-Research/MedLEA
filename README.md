@@ -121,7 +121,7 @@ d29 <- as.data.frame(table(medlea$Shape,medlea$Edges))
 names(d29) <- c('Shape','Edges','No_of_leaves')
 
 
-ggplot(d29, aes(fill = Edges, x=Shape , y=No_of_leaves)) + labs(y="Number of leaves", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.5, position = position_dodge()) + ggtitle("Composition of the sample by Shape Label and Edge type") + scale_fill_brewer(palette = "Set1") + coord_flip()
+ggplot(d29, aes(fill = Edges, x=Shape , y=No_of_leaves)) + labs(y="Number of leaves", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.5, position = position_dodge()) + coord_flip() + ggtitle("Composition of the sample by Shape Label and Edge type") + scale_fill_brewer(palette = "Set1")  
 ```
 
 <img src="man/figures/README-example4-1.png" width="100%" />
