@@ -40,35 +40,25 @@ head(medlea)
 
 ## Wordcloud of Family of the Medicinal Plants
 ```{r example3, warning=FALSE, message=FALSE}
-library(packrat)
 library(tidyverse)
-library(here)
-library(ggplot2)
-library(viridis)
 library(wordcloud2)
-library(tm)
 library(patchwork)
+library(tm)
 
-unique(medlea$Family_Name)
+#unique(medlea$Family_Name)
 
 text1 <- medlea$Family_Name
-
 docs <- Corpus(VectorSource(text1))
 docs <- docs%>% tm_map(stripWhitespace)
-
 dtm <- TermDocumentMatrix(docs)
 matrix <- as.matrix(dtm)
-
 words <- sort(rowSums(matrix), decreasing = TRUE)
-
 df <- data.frame(word = names(words), freq = words)
-
 p1 <- wordcloud2(data = df, size = 0.9,color = 'random-dark', shape = 'pentagon')
-
 p1
 ```
 
-```{r example6, warning=FALSE, message=FALSE}
+```{r example6, warning=FALSE, message=FALSE, echo=FALSE, eval=FALSE}
 d11 <- as.data.frame(table(medlea$Arrangements))
 names(d11) <- c('Arrangements_of_the_leaf', 'No_of_leaves')
 d11 <- d11 %>% mutate(Percentage = round(No_of_leaves*100/sum(No_of_leaves),2))
@@ -78,8 +68,7 @@ ggplot(d11, aes(x= reorder(Arrangements_of_the_leaf, Percentage), y=Percentage))
 
 
 
-## Composition by Shapes of Leaves in Simple Arrangement
-
+## Composition of the Sample by  Shapes of Leaves and Edge Type
 ```{r example2, warning=FALSE, message=FALSE}
 medlea <- filter(medlea, Arrangements == "Simple")
 
@@ -90,7 +79,7 @@ p2 <- ggplot(d11, aes(x= reorder(Shape_of_the_leaf, No_of_leaves), y=No_of_leave
 
 ```
 
-## Composition by Edges of Leaves in Simple Arrangement
+
 ```{r example5, warning=FALSE, message=FALSE}
 d11 <- as.data.frame(table(medlea$Edges))
 names(d11) <- c('Edges', 'No_of_leaves')

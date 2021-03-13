@@ -65,11 +65,63 @@ head(medlea)
 #> 6 Parallel               Alternate       Acute             Obtuse
 ```
 
-## Composition by Shapes of Leaves
+## Wordcloud of Family of the Medicinal Plants
 
 ``` r
 library(tidyverse)
-medlea %>% ggplot(aes(x=Shape)) + geom_bar() 
+library(wordcloud2)
+library(patchwork)
+library(tm)
+
+#unique(medlea$Family_Name)
+
+text1 <- medlea$Family_Name
+docs <- Corpus(VectorSource(text1))
+docs <- docs%>% tm_map(stripWhitespace)
+dtm <- TermDocumentMatrix(docs)
+matrix <- as.matrix(dtm)
+words <- sort(rowSums(matrix), decreasing = TRUE)
+df <- data.frame(word = names(words), freq = words)
+p1 <- wordcloud2(data = df, size = 0.9,color = 'random-dark', shape = 'pentagon')
+p1
 ```
 
-<img src="man/figures/README-example2-1.png" width="100%" />
+<img src="man/figures/README-example3-1.png" width="100%" />
+
+## Composition of the Sample by Shapes of Leaves and Edge Type
+
+``` r
+medlea <- filter(medlea, Arrangements == "Simple")
+
+d11 <- as.data.frame(table(medlea$Shape))
+names(d11) <- c('Shape_of_the_leaf', 'No_of_leaves')
+
+p2 <- ggplot(d11, aes(x= reorder(Shape_of_the_leaf, No_of_leaves), y=No_of_leaves)) + labs(y="Number of leaves", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.6) + ggtitle("Composition of the Sample by the Shape Label") + coord_flip()
+```
+
+``` r
+d11 <- as.data.frame(table(medlea$Edges))
+names(d11) <- c('Edges', 'No_of_leaves')
+#d11 <- d11 %>% mutate(Percentage = round(No_of_leaves*100/sum(No_of_leaves),0))
+#ggplot(d11, aes(x= reorder(Shape_of_the_leaf, Percentage), y=Percentage)) + labs(y="Percentage", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.5) + geom_label(aes(label = paste0(Percentage, "%")), nudge_y = -3, size = 3.25, label.padding = unit(0.175,"lines")) + ggtitle("Composition of the Sample by the Shape Label") + coord_flip()
+
+p3 <- ggplot(d11, aes(x= reorder(Edges, No_of_leaves), y=No_of_leaves)) + labs(y="Number of leaves", x="Edge type of the leaf") + geom_bar(stat = "identity", width = 0.6) + ggtitle("Composition of the Sample by the Edge Type") + coord_flip()
+
+p2 + p3 + plot_layout(ncol = 1)
+```
+
+<img src="man/figures/README-example5-1.png" width="100%" />
+
+## Composition by Shapes and Edges of Leaves in Simple Arrangement
+
+``` r
+medlea <- filter(medlea, Shape != "Scale-like shaped")
+
+d29 <- as.data.frame(table(medlea$Shape,medlea$Edges))
+names(d29) <- c('Shape','Edges','No_of_leaves')
+
+
+ggplot(d29, aes(fill = Edges, x=Shape , y=No_of_leaves)) + labs(y="Number of leaves", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.5, position = position_dodge()) + ggtitle("Composition of the sample by Shape Label and Edge type") + scale_fill_brewer(palette = "Set1")
+```
+
+<img src="man/figures/README-example4-1.png" width="100%" />
