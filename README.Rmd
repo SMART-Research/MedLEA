@@ -96,9 +96,9 @@ p2 + p3 + plot_layout(ncol = 1)
 
 ```{r example4, warning=FALSE, message=FALSE}
 medlea <- filter(medlea, Shape != "Scale-like shaped")
-medlea$Edges <- factor(medlea$Edges, levels = c("Smoothed", "Toothed", "Lobed", "Crenate"))
 d29 <- as.data.frame(table(medlea$Shape,medlea$Edges))
 names(d29) <- c('Shape','Edges','No_of_leaves')
+d29$Edges <- factor(d29$Edges, levels = c("Smooth", "Toothed","Lobed","Crenate"))
 
 
 ggplot(d29, aes(fill = Edges, x=Shape , y=No_of_leaves)) + labs(y="Number of leaves", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.5, position = position_dodge()) + coord_flip() + ggtitle("Composition of the sample by Shape Label and Edge type") + scale_fill_brewer(palette = "Set1")  
