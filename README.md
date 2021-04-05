@@ -116,7 +116,7 @@ p2 + p3 + plot_layout(ncol = 1)
 
 ``` r
 medlea <- filter(medlea, Shape != "Scale-like shaped")
-
+medlea$Edges <- factor(medlea$Edges, levels = c("Smoothed", "Toothed", "Lobed", "Crenate"))
 d29 <- as.data.frame(table(medlea$Shape,medlea$Edges))
 names(d29) <- c('Shape','Edges','No_of_leaves')
 
