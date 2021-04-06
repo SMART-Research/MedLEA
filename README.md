@@ -25,6 +25,12 @@ devtools::install_github("SMART-Research/MedLEA")
 
 ![](https://github.com/SMART-Research/MedLEA/blob/main/Leaf_image/img1.png)
 
+![](https://github.com/SMART-Research/MedLEA/blob/main/Leaf_image/lf_sh.png)
+
+![](https://github.com/SMART-Research/MedLEA/blob/main/Leaf_image/mr.png)
+
+![](https://github.com/SMART-Research/MedLEA/blob/main/Leaf_image/simple_leaf_parts.png)
+
 ## Example
 
 ``` r
