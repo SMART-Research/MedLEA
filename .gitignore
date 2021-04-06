@@ -14,3 +14,4 @@
 .Ruserdata
 ^cran-comments\.md$
 inst/doc
+docs
