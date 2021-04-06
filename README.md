@@ -8,7 +8,8 @@
 <!-- badges: end -->
 
 The MedLEA package provides morphological and structural features of 471
-medicinal plant leaves.
+medicinal plant leaves and 1099 leaf images of 31 species and 29-45
+images per species.
 
 ## Installation
 
@@ -20,9 +21,17 @@ You can install the development version from
 devtools::install_github("SMART-Research/MedLEA")
 ```
 
-## Example
+## Visual representation of description of variables in the dataset
 
-This is a basic example which shows you how to solve a common problem:
+<img src="/Users/thiyangashaminitalagala/packages/MedLEA/Leaf_image/img1.png" width="100%" />
+
+<img src="/Users/thiyangashaminitalagala/packages/MedLEA/Leaf_image/lf_sh.png" width="100%" />
+
+<img src="/Users/thiyangashaminitalagala/packages/MedLEA/Leaf_image/mr.png" width="100%" />
+
+<img src="/Users/thiyangashaminitalagala/packages/MedLEA/Leaf_image/simple_leaf_parts.png" width="100%" />
+
+## Example
 
 ``` r
 library(MedLEA)
@@ -116,9 +125,9 @@ p2 + p3 + plot_layout(ncol = 1)
 
 ``` r
 medlea <- filter(medlea, Shape != "Scale-like shaped")
-medlea$Edges <- factor(medlea$Edges, levels = c("Smoothed", "Toothed", "Lobed", "Crenate"))
 d29 <- as.data.frame(table(medlea$Shape,medlea$Edges))
 names(d29) <- c('Shape','Edges','No_of_leaves')
+d29$Edges <- factor(d29$Edges, levels = c("Smooth", "Toothed","Lobed","Crenate"))
 
 
 ggplot(d29, aes(fill = Edges, x=Shape , y=No_of_leaves)) + labs(y="Number of leaves", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.5, position = position_dodge()) + coord_flip() + ggtitle("Composition of the sample by Shape Label and Edge type") + scale_fill_brewer(palette = "Set1")  

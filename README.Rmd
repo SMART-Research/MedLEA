@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The  MedLEA package provides morphological and structural features of  471 medicinal plant leaves.
+The  MedLEA package provides morphological and structural features of  471 medicinal plant leaves and 1099 leaf images of 31 species and 29-45 images per species.
 
 ## Installation
 
@@ -28,9 +28,30 @@ You can install the development version from [GitHub](https://github.com/) with:
 # install.packages("devtools")
 devtools::install_github("SMART-Research/MedLEA")
 ```
+
+## Visual representation of description of variables in the dataset
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(here)
+knitr::include_graphics(here("Leaf_image", "img1.png"))
+```
+
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics(here("Leaf_image", "lf_sh.png"))
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics(here("Leaf_image", "mr.png"))
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics(here("Leaf_image", "simple_leaf_parts.png"))
+```
+
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
 
 ```{r example1}
 library(MedLEA)
@@ -104,4 +125,9 @@ d29$Edges <- factor(d29$Edges, levels = c("Smooth", "Toothed","Lobed","Crenate")
 ggplot(d29, aes(fill = Edges, x=Shape , y=No_of_leaves)) + labs(y="Number of leaves", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.5, position = position_dodge()) + coord_flip() + ggtitle("Composition of the sample by Shape Label and Edge type") + scale_fill_brewer(palette = "Set1")  
 ```
 
+## Leaf images of medicinal plants in Sri Lanka
+
+```{r, comment=NA, warning=FALSE, message=FALSE}
+load_images()
+```
 
