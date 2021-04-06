@@ -23,13 +23,7 @@ devtools::install_github("SMART-Research/MedLEA")
 
 ## Visual representation of description of variables in the dataset
 
-<img src="/Users/thiyangashaminitalagala/packages/MedLEA/Leaf_image/img1.png" width="100%" />
-
-<img src="/Users/thiyangashaminitalagala/packages/MedLEA/Leaf_image/lf_sh.png" width="100%" />
-
-<img src="/Users/thiyangashaminitalagala/packages/MedLEA/Leaf_image/mr.png" width="100%" />
-
-<img src="/Users/thiyangashaminitalagala/packages/MedLEA/Leaf_image/simple_leaf_parts.png" width="100%" />
+![](https://github.com/SMART-Research/MedLEA/blob/main/Leaf_image/img1.png)
 
 ## Example
 
