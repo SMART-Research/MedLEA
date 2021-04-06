@@ -35,6 +35,10 @@ devtools::install_github("SMART-Research/MedLEA")
 
 ``` r
 library(MedLEA)
+#> Loading required package: patchwork
+#> Loading required package: tm
+#> Loading required package: NLP
+#> Loading required package: wordcloud2
 data("medlea")
 head(medlea)
 #>   ID                                             Sinhala_Name   Family_Name
@@ -134,3 +138,13 @@ ggplot(d29, aes(fill = Edges, x=Shape , y=No_of_leaves)) + labs(y="Number of lea
 ```
 
 <img src="man/figures/README-example4-1.png" width="100%" />
+
+## Load Medicinal Plant Images
+
+``` r
+load_images()
+[1] "The repository of leaf images of medicinal plants in Sri Lanka is collected by following the image acquisition steps that we identified."
+[1] "The repository contains 1099 leaf images of 31 species and 29-45 images per species.These have simple arrangement. The photographs were taken from the device, Huawei nova 3i. The closest photographs were captured on a white background."
+[1] "All the leaf images are in a google drive folder that anyone can access. You can download the images directly from the drive."
+[1] "The shareable link: https://drive.google.com/drive/folders/1W3ap8UhBCIVN5U_UUVSZeTh7VG4Jqbev?usp=sharing"
+```

@@ -116,4 +116,8 @@ d29$Edges <- factor(d29$Edges, levels = c("Smooth", "Toothed","Lobed","Crenate")
 ggplot(d29, aes(fill = Edges, x=Shape , y=No_of_leaves)) + labs(y="Number of leaves", x="Shape of the leaf") + geom_bar(stat = "identity", width = 0.5, position = position_dodge()) + coord_flip() + ggtitle("Composition of the sample by Shape Label and Edge type") + scale_fill_brewer(palette = "Set1")  
 ```
 
+## Load Medicinal Plant Images
 
+```{r, comment=NA}
+load_images()
+```

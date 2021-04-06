@@ -90,6 +90,10 @@
 <a href="#example" class="anchor"></a>Example</h2>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">MedLEA</span><span class="op">)</span>
+<span class="co">#&gt; Loading required package: patchwork</span>
+<span class="co">#&gt; Loading required package: tm</span>
+<span class="co">#&gt; Loading required package: NLP</span>
+<span class="co">#&gt; Loading required package: wordcloud2</span>
 <span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"medlea"</span><span class="op">)</span>
 <span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="va">medlea</span><span class="op">)</span>
 <span class="co">#&gt;   ID                                             Sinhala_Name   Family_Name</span>
@@ -184,6 +188,15 @@
 <span class="fu">ggplot</span><span class="op">(</span><span class="va">d29</span>, <span class="fu">aes</span><span class="op">(</span>fill <span class="op">=</span> <span class="va">Edges</span>, x<span class="op">=</span><span class="va">Shape</span> , y<span class="op">=</span><span class="va">No_of_leaves</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> <span class="fu">labs</span><span class="op">(</span>y<span class="op">=</span><span class="st">"Number of leaves"</span>, x<span class="op">=</span><span class="st">"Shape of the leaf"</span><span class="op">)</span> <span class="op">+</span> <span class="fu">geom_bar</span><span class="op">(</span>stat <span class="op">=</span> <span class="st">"identity"</span>, width <span class="op">=</span> <span class="fl">0.5</span>, position <span class="op">=</span> <span class="fu">position_dodge</span><span class="op">(</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> <span class="fu">coord_flip</span><span class="op">(</span><span class="op">)</span> <span class="op">+</span> <span class="fu">ggtitle</span><span class="op">(</span><span class="st">"Composition of the sample by Shape Label and Edge type"</span><span class="op">)</span> <span class="op">+</span> <span class="fu">scale_fill_brewer</span><span class="op">(</span>palette <span class="op">=</span> <span class="st">"Set1"</span><span class="op">)</span>  </code></pre></div>
 <p><img src="reference/figures/README-example4-1.png" width="100%"></p>
 </div>
+<div id="load-medicinal-plant-images" class="section level2">
+<h2 class="hasAnchor">
+<a href="#load-medicinal-plant-images" class="anchor"></a>Load Medicinal Plant Images</h2>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="kw">load_images</span>()</a>
+<a class="sourceLine" id="cb7-2" data-line-number="2">[<span class="dv">1</span>] <span class="st">"The repository of leaf images of medicinal plants in Sri Lanka is collected by following the image acquisition steps that we identified."</span></a>
+<a class="sourceLine" id="cb7-3" data-line-number="3">[<span class="dv">1</span>] <span class="st">"The repository contains 1099 leaf images of 31 species and 29-45 images per species.These have simple arrangement. The photographs were taken from the device, Huawei nova 3i. The closest photographs were captured on a white background."</span></a>
+<a class="sourceLine" id="cb7-4" data-line-number="4">[<span class="dv">1</span>] <span class="st">"All the leaf images are in a google drive folder that anyone can access. You can download the images directly from the drive."</span></a>
+<a class="sourceLine" id="cb7-5" data-line-number="5">[<span class="dv">1</span>] <span class="st">"The shareable link: https://drive.google.com/drive/folders/1W3ap8UhBCIVN5U_UUVSZeTh7VG4Jqbev?usp=sharing"</span></a></code></pre></div>
+</div>
 </div>
   </div>
 
@@ -192,7 +205,7 @@
 <h2>License</h2>
 <ul class="list-unstyled">
 <li><a href="LICENSE.html">Full license</a></li>
-<li><small><a href="https://www.r-project.org/Licenses/GPL-3">GPL-3</a></small></li>
+<li><small><a href="https://www.r-project.org/Licenses/GPL-3">GPL-3</a> + file <a href="LICENSE-text.html">LICENSE</a></small></li>
 </ul>
 </div>
 <div class="developers">

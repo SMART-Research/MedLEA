@@ -4,8 +4,17 @@
 \alias{load_images}
 \title{Obtain link to download 1099 leaf images}
 \usage{
-load_images()
+load_images(linkonly = FALSE)
+}
+\arguments{
+\item{linkonly}{if TRUE only the shareable link will be displayed.}
+}
+\value{
+character listing the details of the dataset
 }
 \description{
 A repository of leaf images of medicinal plants in Sri Lanka. The repository contains 1099 leaf images of 31 species and 29-45 images per species.
+}
+\details{
+Download leaf image repository
 }
