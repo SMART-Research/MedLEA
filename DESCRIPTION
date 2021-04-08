@@ -1,18 +1,18 @@
 Package: MedLEA
 Title: Morphological and Structural Features of Medicinal Leaves 
-Version: 0.0.0.9000
+Version: 1.0.0
 Authors@R: 
     c(person(given = "Jayani P. G.",
              family = "Lakshika",
-             role = c("aut"),
+             role = c("aut", "cph"),
              email = "jayanilakshika76@gmail.com"),
       person(given = "Thiyanga S.",
              family = "Talagala",
-             role = c("aut", "ths", "cre"),
+             role = c("aut", "ths", "cre", "cph"),
              email="ttalagala@sjp.ac.lk",
              comment = c(ORCID = "0000-0002-0656-9789")))
-Description: MedLEA contains a dataset of morphological and structural features of Medicibal LEAves (MedLEA). The features of each species is recorded by manually viewing the medicinal plant repository available at \url{http://www.instituteofayurveda.org/plants/}. The package also provides a link to download leaf images of 1099 medicinal plants in Sri Lanka.
-License: GPL-3 + file LICENSE
+Description: MedLEA contains a dataset of morphological and structural features of Medicibal LEAves (MedLEA). The features of each species is recorded by manually viewing the medicinal plant repository available at (<http://www.instituteofayurveda.org/plants/>). You can also download repository of leaf images of 1099 medicinal plants in Sri Lanka.
+License: GPL-3 
 Depends:
     R (>= 3.5.0)
 Imports:
