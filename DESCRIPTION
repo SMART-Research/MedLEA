@@ -11,7 +11,7 @@ Authors@R:
              role = c("aut", "ths", "cre", "cph"),
              email="ttalagala@sjp.ac.lk",
              comment = c(ORCID = "0000-0002-0656-9789")))
-Description: Contains a dataset of morphological and structural features of Medicibal LEAves ('MedLEA'). The features of each species is recorded by manually viewing the medicinal plant repository available at (<http://www.instituteofayurveda.org/plants/>). You can also download repository of leaf images of 1099 medicinal plants in Sri Lanka.
+Description: Contains a dataset of morphological and structural features of 'Medicinal LEAves (MedLEA)'. The features of each species is recorded by manually viewing the medicinal plant repository available at (<http://www.instituteofayurveda.org/plants/>). You can also download repository of leaf images of 1099 medicinal plants in Sri Lanka.
 License: GPL-3 
 Depends:
     R (>= 3.5.0)
