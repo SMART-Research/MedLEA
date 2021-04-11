@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
 <script src="pkgdown.js"></script><meta property="og:title" content="Morphological and Structural Features of Medicinal Leaves ">
-<meta property="og:description" content="MedLEA contains a dataset of morphological and structural features of Medicibal LEAves (MedLEA). The features of each species is recorded by manually viewing the medicinal plant repository available at (&lt;http://www.instituteofayurveda.org/plants/&gt;). You can also download repository of leaf images of 1099 medicinal plants in Sri Lanka.">
+<meta property="og:description" content="Contains a dataset of morphological and structural features of Medicinal LEAves (MedLEA). The features of each species is recorded by manually viewing the medicinal plant repository available at (&lt;http://www.instituteofayurveda.org/plants/&gt;). You can also download repository of leaf images of 1099 medicinal plants in Sri Lanka.">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -31,7 +31,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">MedLEA</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.0.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.0.1</span>
       </span>
     </div>
 
@@ -66,14 +66,18 @@
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#medlea" class="anchor"></a>MedLEA <img src="hexsticker/sticker.png" align="right" height="200">
 </h1></div>
+
 <!-- badges: start -->
 <!-- badges: end -->
 <p>The MedLEA package provides morphological and structural features of 471 medicinal plant leaves and 1099 leaf images of 31 species and 29-45 images per species.</p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
-<p>You can install the development version from <a href="https://github.com/">GitHub</a> with:</p>
+<p>You could install the stable version on CRAN:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"MedLEA"</span><span class="op">)</span></code></pre></div>
+<p>You can install the development version from <a href="https://github.com/">GitHub</a> with:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># install.packages("devtools")</span>
 <span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://devtools.r-lib.org//reference/remote-reexports.html">install_github</a></span><span class="op">(</span><span class="st">"SMART-Research/MedLEA"</span><span class="op">)</span></code></pre></div>
 </div>
@@ -88,7 +92,7 @@
 <div id="example" class="section level2">
 <h2 class="hasAnchor">
 <a href="#example" class="anchor"></a>Example</h2>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">MedLEA</span><span class="op">)</span>
 <span class="co">#&gt; Loading required package: patchwork</span>
 <span class="co">#&gt; Loading required package: tm</span>
@@ -135,7 +139,7 @@
 <div id="wordcloud-of-family-of-the-medicinal-plants" class="section level2">
 <h2 class="hasAnchor">
 <a href="#wordcloud-of-family-of-the-medicinal-plants" class="anchor"></a>Wordcloud of Family of the Medicinal Plants</h2>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="http://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span>
 <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/lchiffon/wordcloud2">wordcloud2</a></span><span class="op">)</span>
 <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://patchwork.data-imaginist.com">patchwork</a></span><span class="op">)</span>
@@ -157,14 +161,14 @@
 <div id="composition-of-the-sample-by-shape-and-edge-type-of-leaves" class="section level2">
 <h2 class="hasAnchor">
 <a href="#composition-of-the-sample-by-shape-and-edge-type-of-leaves" class="anchor"></a>Composition of the Sample by Shape and Edge Type of Leaves</h2>
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">medlea</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span><span class="op">(</span><span class="va">medlea</span>, <span class="va">Arrangements</span> <span class="op">==</span> <span class="st">"Simple"</span><span class="op">)</span>
 
 <span class="va">d11</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/as.data.frame.html">as.data.frame</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/table.html">table</a></span><span class="op">(</span><span class="va">medlea</span><span class="op">$</span><span class="va">Shape</span><span class="op">)</span><span class="op">)</span>
 <span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="va">d11</span><span class="op">)</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">'Shape_of_the_leaf'</span>, <span class="st">'No_of_leaves'</span><span class="op">)</span>
 
 <span class="va">p2</span> <span class="op">&lt;-</span> <span class="fu">ggplot</span><span class="op">(</span><span class="va">d11</span>, <span class="fu">aes</span><span class="op">(</span>x<span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/stats/reorder.factor.html">reorder</a></span><span class="op">(</span><span class="va">Shape_of_the_leaf</span>, <span class="va">No_of_leaves</span><span class="op">)</span>, y<span class="op">=</span><span class="va">No_of_leaves</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> <span class="fu">labs</span><span class="op">(</span>y<span class="op">=</span><span class="st">"Number of leaves"</span>, x<span class="op">=</span><span class="st">"Shape of the leaf"</span><span class="op">)</span> <span class="op">+</span> <span class="fu">geom_bar</span><span class="op">(</span>stat <span class="op">=</span> <span class="st">"identity"</span>, width <span class="op">=</span> <span class="fl">0.6</span><span class="op">)</span> <span class="op">+</span> <span class="fu">ggtitle</span><span class="op">(</span><span class="st">"Composition of the Sample by the Shape Label"</span><span class="op">)</span> <span class="op">+</span> <span class="fu">coord_flip</span><span class="op">(</span><span class="op">)</span></code></pre></div>
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">d11</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/as.data.frame.html">as.data.frame</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/table.html">table</a></span><span class="op">(</span><span class="va">medlea</span><span class="op">$</span><span class="va">Edges</span><span class="op">)</span><span class="op">)</span>
 <span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="va">d11</span><span class="op">)</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">'Edges'</span>, <span class="st">'No_of_leaves'</span><span class="op">)</span>
 <span class="co">#d11 &lt;- d11 %&gt;% mutate(Percentage = round(No_of_leaves*100/sum(No_of_leaves),0))</span>
@@ -178,7 +182,7 @@
 <div id="composition-of-the-sample-by-shape-and-edge-type-of-leaves-in-simple-arrangement" class="section level2">
 <h2 class="hasAnchor">
 <a href="#composition-of-the-sample-by-shape-and-edge-type-of-leaves-in-simple-arrangement" class="anchor"></a>Composition of the Sample by Shape and Edge type of Leaves in Simple Arrangement</h2>
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">medlea</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span><span class="op">(</span><span class="va">medlea</span>, <span class="va">Shape</span> <span class="op">!=</span> <span class="st">"Scale-like shaped"</span><span class="op">)</span>
 <span class="va">d29</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/as.data.frame.html">as.data.frame</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/table.html">table</a></span><span class="op">(</span><span class="va">medlea</span><span class="op">$</span><span class="va">Shape</span>,<span class="va">medlea</span><span class="op">$</span><span class="va">Edges</span><span class="op">)</span><span class="op">)</span>
 <span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="va">d29</span><span class="op">)</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">'Shape'</span>,<span class="st">'Edges'</span>,<span class="st">'No_of_leaves'</span><span class="op">)</span>
@@ -191,17 +195,24 @@
 <div id="load-medicinal-plant-images" class="section level2">
 <h2 class="hasAnchor">
 <a href="#load-medicinal-plant-images" class="anchor"></a>Load Medicinal Plant Images</h2>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="kw">load_images</span>()</a>
-<a class="sourceLine" id="cb7-2" data-line-number="2">[<span class="dv">1</span>] <span class="st">"The repository of leaf images of medicinal plants in Sri Lanka is collected by following the image acquisition steps that we identified."</span></a>
-<a class="sourceLine" id="cb7-3" data-line-number="3">[<span class="dv">1</span>] <span class="st">"The repository contains 1099 leaf images of 31 species and 29-45 images per species.These have simple arrangement. The photographs were taken from the device, Huawei nova 3i. The closest photographs were captured on a white background."</span></a>
-<a class="sourceLine" id="cb7-4" data-line-number="4">[<span class="dv">1</span>] <span class="st">"All the leaf images are in a google drive folder that anyone can access. You can download the images directly from the drive."</span></a>
-<a class="sourceLine" id="cb7-5" data-line-number="5">[<span class="dv">1</span>] <span class="st">"The shareable link: https://drive.google.com/drive/folders/1W3ap8UhBCIVN5U_UUVSZeTh7VG4Jqbev?usp=sharing"</span></a></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="kw">load_images</span>()</a>
+<a class="sourceLine" id="cb8-2" data-line-number="2">[<span class="dv">1</span>] <span class="st">"The repository of leaf images of medicinal plants in Sri Lanka is collected by following the image acquisition steps that we identified."</span></a>
+<a class="sourceLine" id="cb8-3" data-line-number="3">[<span class="dv">1</span>] <span class="st">"The repository contains 1099 leaf images of 31 species and 29-45 images per species.These have simple arrangement. The photographs were taken from the device, Huawei nova 3i. The closest photographs were captured on a white background."</span></a>
+<a class="sourceLine" id="cb8-4" data-line-number="4">[<span class="dv">1</span>] <span class="st">"All the leaf images are in a google drive folder that anyone can access. You can download the images directly from the drive."</span></a>
+<a class="sourceLine" id="cb8-5" data-line-number="5">[<span class="dv">1</span>] <span class="st">"The shareable link: https://drive.google.com/drive/folders/1W3ap8UhBCIVN5U_UUVSZeTh7VG4Jqbev?usp=sharing"</span></a></code></pre></div>
 </div>
 </div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
-    <div class="license">
+    <div class="links">
+<h2>Links</h2>
+<ul class="list-unstyled">
+<li>Download from CRAN at <br><a href="https://cloud.r-project.org/package=MedLEA">https://​cloud.r-project.org/​package=MedLEA</a>
+</li>
+</ul>
+</div>
+<div class="license">
 <h2>License</h2>
 <ul class="list-unstyled">
 <li>
@@ -216,7 +227,14 @@
 </ul>
 </div>
 
-  </div>
+  <div class="dev-status">
+<h2>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://CRAN.R-project.org/package=MedLEA"><img src="http://www.r-pkg.org/badges/version/MedLEA" alt="CRAN_Status_Badge"></a></li>
+<li><a href="https://cran.r-project.org/package=MedLEA"><img src="http://cranlogs.r-pkg.org/badges/MedLEA" alt="Downloads"></a></li>
+</ul>
+</div>
+</div>
 </div>
 
 

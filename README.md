@@ -3,6 +3,9 @@
 
 # MedLEA <img src="hexsticker/sticker.png" align="right" height="200"/>
 
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/MedLEA)](https://CRAN.R-project.org/package=MedLEA)
+[![Downloads](http://cranlogs.r-pkg.org/badges/MedLEA)](https://cran.r-project.org/package=MedLEA)
+
 <!-- badges: start -->
 
 <!-- badges: end -->
@@ -12,6 +15,12 @@ medicinal plant leaves and 1099 leaf images of 31 species and 29-45
 images per species.
 
 ## Installation
+
+You could install the stable version on CRAN:
+
+``` r
+install.packages("MedLEA")
+```
 
 You can install the development version from
 [GitHub](https://github.com/) with:
