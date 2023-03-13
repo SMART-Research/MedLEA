@@ -20,7 +20,9 @@ library(MedLEA)
 
 ## Wordcloud of Family of the Medicinal Plants
 ```{r example3, warning=FALSE, message=FALSE}
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
 library(wordcloud2)
 library(patchwork)
 library(tm)
@@ -51,7 +53,7 @@ ggplot(d11, aes(x= reorder(Arrangements_of_the_leaf, Percentage), y=Percentage))
 ## Composition of the Sample by Shape and Edge Type of Leaves
 
 ```{r example2, warning=FALSE, message=FALSE}
-medlea <- filter(medlea, Arrangements == "Simple")
+medlea <- medlea %>% filter(Arrangements == "Simple")
 
 d11 <- as.data.frame(table(medlea$Shape))
 names(d11) <- c('Shape_of_the_leaf', 'No_of_leaves')

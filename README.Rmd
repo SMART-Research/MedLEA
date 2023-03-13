@@ -61,9 +61,11 @@ head(medlea)
 
 ## Wordcloud of Family of the Medicinal Plants
 ```{r example3, warning=FALSE, message=FALSE}
-library(tidyverse)
+library(ggplot2)
 library(wordcloud2)
+library(magrittr)
 library(patchwork)
+library(dplyr)
 library(tm)
 
 #unique(medlea$Family_Name)
